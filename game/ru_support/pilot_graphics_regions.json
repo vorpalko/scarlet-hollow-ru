@@ -1,0 +1,4633 @@
+{
+  "schema_version": 1,
+  "method": "original source plus finite unchanged ImageGen lettering crops",
+  "legacy_artifact_count": 25,
+  "raster_input_count": 46,
+  "auxiliary_rasters": {
+    "ru_support/images/pilot_refresh/animals_cleanplate.png": {
+      "size": [
+        2168,
+        725
+      ],
+      "sha256": "b754af5a5994f0c5bae761c34ab04480958ccf882a0e1bacc92ab6848a7570eb",
+      "role": "generated_background_cleanplate"
+    },
+    "ru_support/images/pilot_refresh/animals_english_mask.png": {
+      "size": [
+        313,
+        313
+      ],
+      "sha256": "ec57fa1f49c2126357552baa535de7b81a5060f60a68d2292258b37d749a7a89",
+      "role": "original_english_mask"
+    },
+    "ru_support/images/pilot_refresh/animals_letter_mask.png": {
+      "size": [
+        2167,
+        726
+      ],
+      "sha256": "a27f5c631e3ea375fbfa90b5aa6087a71d3cac751c3fe1d7ccb097d5f480f15e",
+      "role": "generated_letter_mask"
+    },
+    "ru_support/images/pilot_refresh/book_cleanplate.png": {
+      "size": [
+        2167,
+        725
+      ],
+      "sha256": "dd4e2ec1b3c725c79016a80240c0d94c92481e8823d19cdf0f4d2e213dc0975f",
+      "role": "generated_background_cleanplate"
+    },
+    "ru_support/images/pilot_refresh/book_english_mask.png": {
+      "size": [
+        313,
+        313
+      ],
+      "sha256": "d89ac9e140ad5b80210f5a6a5b99a29c324cf8f982dd2712c9228f5eaf53e098",
+      "role": "original_english_mask"
+    },
+    "ru_support/images/pilot_refresh/book_letter_mask.png": {
+      "size": [
+        2168,
+        725
+      ],
+      "sha256": "5b58d8c440b7c1d8301a4bd6857b943f7db374bcc6e2859759e5d471e7d9ec18",
+      "role": "generated_letter_mask"
+    },
+    "ru_support/images/pilot_refresh/hot_cleanplate.png": {
+      "size": [
+        2167,
+        725
+      ],
+      "sha256": "b51f946eb3a8e2f37716ae884f010e0cb6891904a9d702811453694db543f9c3",
+      "role": "generated_background_cleanplate"
+    },
+    "ru_support/images/pilot_refresh/hot_english_mask.png": {
+      "size": [
+        313,
+        313
+      ],
+      "sha256": "b4d1f30e12ade7305809620683e07ae6c7bed09d7d2b32d47fa8cb65a3d04a58",
+      "role": "original_english_mask"
+    },
+    "ru_support/images/pilot_refresh/hot_letter_mask.png": {
+      "size": [
+        2167,
+        725
+      ],
+      "sha256": "4486aa364773cdb98894aa8c1bedd6bfb94c9c2eead1baf564a54ff3e5c54a1d",
+      "role": "generated_letter_mask"
+    },
+    "ru_support/images/pilot_refresh/keen_cleanplate.png": {
+      "size": [
+        2168,
+        725
+      ],
+      "sha256": "ec6c829dc0a23acaac216d16f56b356c9a5466f5d5ec944caa9bd8df29800c30",
+      "role": "generated_background_cleanplate"
+    },
+    "ru_support/images/pilot_refresh/keen_english_mask.png": {
+      "size": [
+        313,
+        313
+      ],
+      "sha256": "b648f619837b825fe92ea3703ac67d2a7ccebab5f784061c581d6d4c88c4e303",
+      "role": "original_english_mask"
+    },
+    "ru_support/images/pilot_refresh/keen_letter_mask.png": {
+      "size": [
+        2168,
+        725
+      ],
+      "sha256": "39357f3c2832dbdf91be66171eceb64b8daa95618960e163ce722401e166f68a",
+      "role": "generated_letter_mask"
+    },
+    "ru_support/images/pilot_refresh/mystic_cleanplate.png": {
+      "size": [
+        2168,
+        725
+      ],
+      "sha256": "4cc7722d920d5d14fe8b988665d2cdd1e01f33d629964046bd93244c55d9cffc",
+      "role": "generated_background_cleanplate"
+    },
+    "ru_support/images/pilot_refresh/mystic_english_mask.png": {
+      "size": [
+        313,
+        313
+      ],
+      "sha256": "371f1a3204161d6b7fc2497b75b790009c7d84c5dc21c142753ff54152c449c1",
+      "role": "original_english_mask"
+    },
+    "ru_support/images/pilot_refresh/mystic_letter_mask.png": {
+      "size": [
+        2167,
+        725
+      ],
+      "sha256": "55a022a478bbecceb2880d9681bce11a3316fb7c4b6c60a9d6b747eeacb04a5d",
+      "role": "generated_letter_mask"
+    },
+    "ru_support/images/pilot_refresh/powerful_cleanplate.png": {
+      "size": [
+        2167,
+        726
+      ],
+      "sha256": "d129d34999106ab740c1843f1fd8af6f91ec7e7e1eac7bba5cfb2863cb669efa",
+      "role": "generated_background_cleanplate"
+    },
+    "ru_support/images/pilot_refresh/powerful_english_mask.png": {
+      "size": [
+        313,
+        313
+      ],
+      "sha256": "11dcf81dffd81a8878ef96d02ded773806dd01e72457d4d1d33122ec8027df54",
+      "role": "original_english_mask"
+    },
+    "ru_support/images/pilot_refresh/powerful_letter_mask.png": {
+      "size": [
+        2168,
+        725
+      ],
+      "sha256": "e6c9cfb7dea502f549d4b19e46b9de9c4f03ac3c8de61acbcaca905a019a8104",
+      "role": "generated_letter_mask"
+    },
+    "ru_support/images/pilot_refresh/street_cleanplate.png": {
+      "size": [
+        2168,
+        725
+      ],
+      "sha256": "bbda59abc7acb5956b40996387763cd6c576aac417f07573446fdccd15c4bef1",
+      "role": "generated_background_cleanplate"
+    },
+    "ru_support/images/pilot_refresh/street_english_mask.png": {
+      "size": [
+        313,
+        313
+      ],
+      "sha256": "7d9276454f3145234cbdd6721d2ed6cafc7f644981d1abfd8087b21699cde358",
+      "role": "original_english_mask"
+    },
+    "ru_support/images/pilot_refresh/street_letter_mask.png": {
+      "size": [
+        2167,
+        725
+      ],
+      "sha256": "b0677a45d4b5a3524ecae1b30d932fe398cadffe81963aeff94a0adf098f3aef",
+      "role": "generated_letter_mask"
+    }
+  },
+  "specs": {
+    "gui/confirm_hover.png": {
+      "source_size": [
+        259,
+        105
+      ],
+      "source_sha256": "d49f59d1b71d0d17b401299e057f184553263be3afe3f48b003366c3e2d4addd",
+      "artifact": "ru_support/images/gui/confirm_idle.png",
+      "artifact_size": [
+        1969,
+        799
+      ],
+      "artifact_sha256": "73677aca4f55d822c2402fd3101c539aef4c68c52e9ba7cf17c58dce32759192",
+      "regions": [
+        {
+          "generated_rect": [
+            236,
+            198,
+            1741,
+            593
+          ],
+          "destination_rect": [
+            27,
+            23,
+            232,
+            82
+          ],
+          "ink_extract": {
+            "channel": 0,
+            "opaque": 20,
+            "clear": 220,
+            "rgb": [
+              0,
+              0,
+              0
+            ]
+          },
+          "background_rgb": [
+            173,
+            55,
+            55
+          ]
+        }
+      ],
+      "protected_polygons": []
+    },
+    "gui/confirm_idle.png": {
+      "source_size": [
+        259,
+        105
+      ],
+      "source_sha256": "4f6ccb61aaa868ac115c7782550513089b99c14d2cdcfe8d53418a9a03c0cf50",
+      "artifact": "ru_support/images/gui/confirm_idle.png",
+      "artifact_size": [
+        1969,
+        799
+      ],
+      "artifact_sha256": "73677aca4f55d822c2402fd3101c539aef4c68c52e9ba7cf17c58dce32759192",
+      "regions": [
+        {
+          "generated_rect": [
+            236,
+            198,
+            1741,
+            593
+          ],
+          "destination_rect": [
+            27,
+            23,
+            232,
+            82
+          ],
+          "ink_extract": {
+            "channel": 0,
+            "opaque": 20,
+            "clear": 220,
+            "rgb": [
+              0,
+              0,
+              0
+            ]
+          },
+          "background_rgb": [
+            255,
+            255,
+            255
+          ]
+        }
+      ],
+      "protected_polygons": []
+    },
+    "gui/gender/enby_hover.png": {
+      "source_size": [
+        175,
+        325
+      ],
+      "source_sha256": "7c8118e4f350102f0b95cbd0b260e8d06f565303668660942b476152b1c286bb",
+      "artifact": "ru_support/images/gui/gender/enby_hover.png",
+      "artifact_size": [
+        920,
+        1709
+      ],
+      "artifact_sha256": "db3cdf0935e43e2ceab14595b1cf35686f57ef84fd8e1522893347d28094f78f",
+      "regions": [
+        {
+          "generated_rect": [
+            165,
+            823,
+            775,
+            1534
+          ],
+          "destination_rect": [
+            32,
+            166,
+            145,
+            293
+          ],
+          "ink_extract": {
+            "channel": 0,
+            "opaque": 100,
+            "clear": 185,
+            "rgb": [
+              98,
+              40,
+              37
+            ]
+          },
+          "background_sample_rect": [
+            27,
+            166,
+            28,
+            293
+          ]
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            20,
+            20
+          ],
+          [
+            155,
+            20
+          ],
+          [
+            155,
+            166
+          ],
+          [
+            20,
+            166
+          ]
+        ]
+      ]
+    },
+    "gui/gender/enby_selected_hover.png": {
+      "source_size": [
+        175,
+        325
+      ],
+      "source_sha256": "fd8c8afc78eddc3bbae3cde65650fb505c28bd90b236d64eaa7b4252127dc7df",
+      "artifact": "ru_support/images/gui/gender/enby_hover.png",
+      "artifact_size": [
+        920,
+        1709
+      ],
+      "artifact_sha256": "db3cdf0935e43e2ceab14595b1cf35686f57ef84fd8e1522893347d28094f78f",
+      "regions": [
+        {
+          "generated_rect": [
+            165,
+            823,
+            775,
+            1534
+          ],
+          "destination_rect": [
+            32,
+            166,
+            145,
+            293
+          ],
+          "ink_extract": {
+            "channel": 0,
+            "opaque": 100,
+            "clear": 185,
+            "rgb": [
+              98,
+              40,
+              37
+            ]
+          },
+          "background_sample_rect": [
+            27,
+            166,
+            28,
+            293
+          ]
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            20,
+            20
+          ],
+          [
+            155,
+            20
+          ],
+          [
+            155,
+            166
+          ],
+          [
+            20,
+            166
+          ]
+        ]
+      ]
+    },
+    "gui/gender/female_hover.png": {
+      "source_size": [
+        175,
+        325
+      ],
+      "source_sha256": "061639a73555ffe2d0de700d5df84fcb0af48c7eaf4ea002133fd2c70acd4670",
+      "artifact": "ru_support/images/gui/gender/female_hover.png",
+      "artifact_size": [
+        920,
+        1709
+      ],
+      "artifact_sha256": "a72582bdcb18e853f877abbaf3975fd22d31667d1e95533328f0b27d794bdfab",
+      "regions": [
+        {
+          "generated_rect": [
+            163,
+            824,
+            779,
+            1538
+          ],
+          "destination_rect": [
+            32,
+            166,
+            145,
+            293
+          ],
+          "ink_extract": {
+            "channel": 0,
+            "opaque": 100,
+            "clear": 185,
+            "rgb": [
+              98,
+              40,
+              37
+            ]
+          },
+          "background_sample_rect": [
+            27,
+            166,
+            28,
+            293
+          ]
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            20,
+            20
+          ],
+          [
+            155,
+            20
+          ],
+          [
+            155,
+            166
+          ],
+          [
+            20,
+            166
+          ]
+        ]
+      ]
+    },
+    "gui/gender/female_selected_hover.png": {
+      "source_size": [
+        175,
+        325
+      ],
+      "source_sha256": "61304d7dd2fd4afd01572379d3f0073487c8498900b600455bd1212771727ea6",
+      "artifact": "ru_support/images/gui/gender/female_hover.png",
+      "artifact_size": [
+        920,
+        1709
+      ],
+      "artifact_sha256": "a72582bdcb18e853f877abbaf3975fd22d31667d1e95533328f0b27d794bdfab",
+      "regions": [
+        {
+          "generated_rect": [
+            163,
+            824,
+            779,
+            1538
+          ],
+          "destination_rect": [
+            32,
+            166,
+            145,
+            293
+          ],
+          "ink_extract": {
+            "channel": 0,
+            "opaque": 100,
+            "clear": 185,
+            "rgb": [
+              98,
+              40,
+              37
+            ]
+          },
+          "background_sample_rect": [
+            27,
+            166,
+            28,
+            293
+          ]
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            20,
+            20
+          ],
+          [
+            155,
+            20
+          ],
+          [
+            155,
+            166
+          ],
+          [
+            20,
+            166
+          ]
+        ]
+      ]
+    },
+    "gui/gender/gender_idle.png": {
+      "source_size": [
+        474,
+        196
+      ],
+      "source_sha256": "4c0a23414cdfa6947060eea1b298f71430133cf4d285e92b162e708addd41b8b",
+      "artifact": "ru_support/images/gui/gender/gender_idle.png",
+      "artifact_size": [
+        1950,
+        807
+      ],
+      "artifact_sha256": "850d489f0bfa2d20853b2d93c3d2e47f60f4905f6fb62bbee26fd93f04022ab7",
+      "regions": [
+        {
+          "generated_rect": [
+            503,
+            100,
+            1488,
+            319
+          ],
+          "destination_rect": [
+            120,
+            27,
+            363,
+            84
+          ],
+          "ink_extract": {
+            "channel": 0,
+            "opaque": 20,
+            "clear": 220,
+            "rgb": [
+              0,
+              0,
+              0
+            ]
+          },
+          "background_sample_rect": [
+            105,
+            27,
+            106,
+            84
+          ],
+          "replace_original_alpha": true
+        }
+      ],
+      "protected_polygons": []
+    },
+    "gui/gender/male_hover.png": {
+      "source_size": [
+        175,
+        325
+      ],
+      "source_sha256": "99ddf98a01678e5a012af9e96157cb2dc98e611208c1ffbea1d7517e8b7a4918",
+      "artifact": "ru_support/images/gui/gender/male_hover.png",
+      "artifact_size": [
+        920,
+        1708
+      ],
+      "artifact_sha256": "ae324a0f74c3828aa8a272ba19e7e714a47275dafe357db0f0b57f1d3c32d907",
+      "regions": [
+        {
+          "generated_rect": [
+            164,
+            825,
+            777,
+            1539
+          ],
+          "destination_rect": [
+            32,
+            166,
+            145,
+            293
+          ],
+          "ink_extract": {
+            "channel": 0,
+            "opaque": 100,
+            "clear": 185,
+            "rgb": [
+              98,
+              40,
+              37
+            ]
+          },
+          "background_sample_rect": [
+            27,
+            166,
+            28,
+            293
+          ]
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            20,
+            20
+          ],
+          [
+            155,
+            20
+          ],
+          [
+            155,
+            166
+          ],
+          [
+            20,
+            166
+          ]
+        ]
+      ]
+    },
+    "gui/gender/male_selected_hover.png": {
+      "source_size": [
+        175,
+        325
+      ],
+      "source_sha256": "a5839d7782dc64f48f8fb46ac2c708d73395f49c479d2b06f45dc94adc16995a",
+      "artifact": "ru_support/images/gui/gender/male_hover.png",
+      "artifact_size": [
+        920,
+        1708
+      ],
+      "artifact_sha256": "ae324a0f74c3828aa8a272ba19e7e714a47275dafe357db0f0b57f1d3c32d907",
+      "regions": [
+        {
+          "generated_rect": [
+            164,
+            825,
+            777,
+            1539
+          ],
+          "destination_rect": [
+            32,
+            166,
+            145,
+            293
+          ],
+          "ink_extract": {
+            "channel": 0,
+            "opaque": 100,
+            "clear": 185,
+            "rgb": [
+              98,
+              40,
+              37
+            ]
+          },
+          "background_sample_rect": [
+            27,
+            166,
+            28,
+            293
+          ]
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            20,
+            20
+          ],
+          [
+            155,
+            20
+          ],
+          [
+            155,
+            166
+          ],
+          [
+            20,
+            166
+          ]
+        ]
+      ]
+    },
+    "gui/journal/buttons/return hover.png": {
+      "source_size": [
+        259,
+        105
+      ],
+      "source_sha256": "301a9fba63cab7c290d6fc7506e67dbed5c131495babf56637fae9cb108324d3",
+      "artifact": "ru_support/images/gui/journal/buttons/return idle.png",
+      "artifact_size": [
+        1969,
+        799
+      ],
+      "artifact_sha256": "1bfa629107e8c7e43218c3549d47e30703e0d16317300ff69ad1f5f34535f6ec",
+      "regions": [
+        {
+          "generated_rect": [
+            237,
+            192,
+            1732,
+            591
+          ],
+          "destination_rect": [
+            27,
+            23,
+            232,
+            82
+          ],
+          "ink_extract": {
+            "channel": 0,
+            "opaque": 20,
+            "clear": 220,
+            "rgb": [
+              0,
+              0,
+              0
+            ]
+          },
+          "background_rgb": [
+            138,
+            49,
+            49
+          ]
+        }
+      ],
+      "protected_polygons": []
+    },
+    "gui/journal/buttons/return idle.png": {
+      "source_size": [
+        259,
+        105
+      ],
+      "source_sha256": "fc0064b0030c74995037f89c5c04bb59768e8bd7cacf77b2a325b00e9d33c1f9",
+      "artifact": "ru_support/images/gui/journal/buttons/return idle.png",
+      "artifact_size": [
+        1969,
+        799
+      ],
+      "artifact_sha256": "1bfa629107e8c7e43218c3549d47e30703e0d16317300ff69ad1f5f34535f6ec",
+      "regions": [
+        {
+          "generated_rect": [
+            237,
+            192,
+            1732,
+            591
+          ],
+          "destination_rect": [
+            27,
+            23,
+            232,
+            82
+          ],
+          "ink_extract": {
+            "channel": 0,
+            "opaque": 20,
+            "clear": 220,
+            "rgb": [
+              0,
+              0,
+              0
+            ]
+          },
+          "background_rgb": [
+            255,
+            255,
+            255
+          ]
+        }
+      ],
+      "protected_polygons": []
+    },
+    "gui/journal/hardcore_traits/animals_journal.png": {
+      "source_size": [
+        120,
+        120
+      ],
+      "source_sha256": "30a7a03a0c64a5371fa0066d085072d85d982d2baa9f860a95ad7c21565cc3c8",
+      "artifact": "ru_support/images/pilot_refresh/animals_title.png",
+      "artifact_size": [
+        2167,
+        726
+      ],
+      "artifact_sha256": "adb8eef49f38977a089e015c165e67f5a456aca5efe46aaf8600a9d2e4a5eb2e",
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            107,
+            2167,
+            618
+          ],
+          "destination_rect": [
+            22,
+            10,
+            101,
+            28
+          ],
+          "edge_feather": 0,
+          "letter_mask": "ru_support/images/pilot_refresh/animals_letter_mask.png",
+          "background_repair": {
+            "artifact": "ru_support/images/pilot_refresh/animals_cleanplate.png",
+            "generated_rect": [
+              290,
+              191,
+              1974,
+              557
+            ],
+            "source_erase_mask": "ru_support/images/pilot_refresh/animals_english_mask.png",
+            "source_mask_rect": [
+              58,
+              27,
+              264,
+              73
+            ],
+            "uv_homography": [
+              0.9647952583092291,
+              -0.009697627597521304,
+              0.004662386621369787,
+              -0.061082513020413905,
+              0.9445941183076906,
+              0.021994157827312726,
+              -0.018677579407292255,
+              -0.01612954340672087
+            ],
+            "colour_fit": [
+              [
+                0.40483402165076005,
+                144.04281422657678
+              ],
+              [
+                1.011026184345359,
+                -0.5832375753502622
+              ],
+              [
+                0.8341665751692834,
+                20.126629281999495
+              ]
+            ]
+          }
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            8,
+            8
+          ],
+          [
+            20,
+            8
+          ],
+          [
+            23,
+            26
+          ],
+          [
+            22,
+            39
+          ],
+          [
+            8,
+            44
+          ]
+        ],
+        [
+          [
+            103,
+            8
+          ],
+          [
+            112,
+            8
+          ],
+          [
+            112,
+            46
+          ],
+          [
+            71,
+            46
+          ],
+          [
+            81,
+            35
+          ],
+          [
+            91,
+            29
+          ],
+          [
+            106,
+            24
+          ]
+        ],
+        [
+          [
+            8,
+            35
+          ],
+          [
+            112,
+            35
+          ],
+          [
+            112,
+            112
+          ],
+          [
+            8,
+            112
+          ]
+        ]
+      ]
+    },
+    "gui/journal/hardcore_traits/book_journal.png": {
+      "source_size": [
+        120,
+        120
+      ],
+      "source_sha256": "7143c9afb95821320295cc0e88a899ff8da518edf75265033478cda4091e8a03",
+      "artifact": "ru_support/images/pilot_refresh/book_title.png",
+      "artifact_size": [
+        2168,
+        725
+      ],
+      "artifact_sha256": "007f0ed58a848ce2d1e2b9f2dd0d076a45691e2d51f9b62a0a554f0cffaa2625",
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            130,
+            2168,
+            558
+          ],
+          "destination_rect": [
+            8,
+            8,
+            112,
+            30
+          ],
+          "edge_feather": 0,
+          "letter_mask": "ru_support/images/pilot_refresh/book_letter_mask.png",
+          "background_repair": {
+            "artifact": "ru_support/images/pilot_refresh/book_cleanplate.png",
+            "generated_rect": [
+              0,
+              133,
+              2167,
+              587
+            ],
+            "source_erase_mask": "ru_support/images/pilot_refresh/book_english_mask.png",
+            "source_mask_rect": [
+              22,
+              22,
+              291,
+              78
+            ],
+            "uv_homography": [
+              0.9960038169558669,
+              0.0002812477780099319,
+              0.0009287841103233845,
+              0.004616390149875891,
+              0.9757851288550837,
+              3.913587166186997e-05,
+              -0.0020614274418189723,
+              0.00011664677605253721
+            ],
+            "colour_fit": [
+              [
+                1.0507598643580944,
+                -0.2793361169368278
+              ],
+              [
+                0.9673281555177708,
+                9.20640892303966
+              ],
+              [
+                0.9748301630107843,
+                5.526517075411487
+              ]
+            ]
+          }
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            8,
+            31
+          ],
+          [
+            112,
+            31
+          ],
+          [
+            112,
+            112
+          ],
+          [
+            8,
+            112
+          ]
+        ]
+      ]
+    },
+    "gui/journal/hardcore_traits/hot_journal.png": {
+      "source_size": [
+        120,
+        120
+      ],
+      "source_sha256": "896fab99479e4b498a11a0c613560a8a371787a80db2031ecbdf95a20ab1c9da",
+      "artifact": "ru_support/images/pilot_refresh/hot_title.png",
+      "artifact_size": [
+        2167,
+        725
+      ],
+      "artifact_sha256": "810ad7529bddee63e2ba65146b107c8ec59f88dfabca2b75dc085c57899c2074",
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            116,
+            2167,
+            600
+          ],
+          "destination_rect": [
+            8,
+            8,
+            112,
+            31
+          ],
+          "edge_feather": 0,
+          "letter_mask": "ru_support/images/pilot_refresh/hot_letter_mask.png",
+          "background_repair": {
+            "artifact": "ru_support/images/pilot_refresh/hot_cleanplate.png",
+            "generated_rect": [
+              0,
+              119,
+              2167,
+              603
+            ],
+            "source_erase_mask": "ru_support/images/pilot_refresh/hot_english_mask.png",
+            "source_mask_rect": [
+              22,
+              22,
+              291,
+              82
+            ],
+            "uv_homography": [
+              0.9917942804980008,
+              0.00016041511004684622,
+              0.003096426387315016,
+              -0.0028562967905646436,
+              0.9817434900175728,
+              -0.0006914050951209627,
+              -0.002697235229637533,
+              -0.0017228283664935079
+            ],
+            "colour_fit": [
+              [
+                0.9505080542876426,
+                14.354119871198414
+              ],
+              [
+                0.942718796248709,
+                13.230552719969731
+              ],
+              [
+                0.9456180507360898,
+                6.187459034671296
+              ]
+            ]
+          }
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            8,
+            32
+          ],
+          [
+            112,
+            32
+          ],
+          [
+            112,
+            112
+          ],
+          [
+            8,
+            112
+          ]
+        ]
+      ]
+    },
+    "gui/journal/hardcore_traits/keen_journal.png": {
+      "source_size": [
+        120,
+        120
+      ],
+      "source_sha256": "bb9679d241b7f9ce3592a2d3a998afa06096736b93c401725f9a4bdd4c633cf3",
+      "artifact": "ru_support/images/pilot_refresh/keen_title.png",
+      "artifact_size": [
+        2168,
+        725
+      ],
+      "artifact_sha256": "edf51e2c906be6180bd158399e275d238d1d74eac765751a9015638c33912e42",
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            147,
+            2168,
+            570
+          ],
+          "destination_rect": [
+            8,
+            8,
+            112,
+            29
+          ],
+          "edge_feather": 0,
+          "letter_mask": "ru_support/images/pilot_refresh/keen_letter_mask.png",
+          "background_repair": {
+            "artifact": "ru_support/images/pilot_refresh/keen_cleanplate.png",
+            "generated_rect": [
+              0,
+              139,
+              2168,
+              585
+            ],
+            "source_erase_mask": "ru_support/images/pilot_refresh/keen_english_mask.png",
+            "source_mask_rect": [
+              22,
+              22,
+              291,
+              76
+            ],
+            "uv_homography": [
+              0.9962173177605965,
+              -0.0003382753808737576,
+              0.0005677686250237794,
+              0.0010044056042503072,
+              0.9654474591540895,
+              0.002440906006737623,
+              -0.0026224582615196616,
+              -0.0004990219822464251
+            ],
+            "colour_fit": [
+              [
+                0.9796730109398727,
+                13.573141943622366
+              ],
+              [
+                0.9407391790588779,
+                11.9650751094362
+              ],
+              [
+                0.980841477183234,
+                -0.6055720976893706
+              ]
+            ]
+          }
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            8,
+            29
+          ],
+          [
+            112,
+            29
+          ],
+          [
+            112,
+            112
+          ],
+          [
+            8,
+            112
+          ]
+        ]
+      ]
+    },
+    "gui/journal/hardcore_traits/mystical_journal.png": {
+      "source_size": [
+        120,
+        120
+      ],
+      "source_sha256": "64921d8b37997cc7e4f831f0ec8ab3719fba112e054c2e73e7e2b44e66c8fd9b",
+      "artifact": "ru_support/images/pilot_refresh/mystic_title.png",
+      "artifact_size": [
+        2167,
+        725
+      ],
+      "artifact_sha256": "078b0474bba4631d097b4f8abe2d0bc9d081bc43dfa54c7c299964e135eb89d3",
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            77,
+            2167,
+            640
+          ],
+          "destination_rect": [
+            8,
+            8,
+            112,
+            31
+          ],
+          "edge_feather": 0,
+          "letter_mask": "ru_support/images/pilot_refresh/mystic_letter_mask.png",
+          "background_repair": {
+            "artifact": "ru_support/images/pilot_refresh/mystic_cleanplate.png",
+            "generated_rect": [
+              0,
+              115,
+              2168,
+              610
+            ],
+            "source_erase_mask": "ru_support/images/pilot_refresh/mystic_english_mask.png",
+            "source_mask_rect": [
+              22,
+              22,
+              291,
+              82
+            ],
+            "uv_homography": [
+              1.0035005729751478,
+              0.009205592216841512,
+              -0.002125156700894137,
+              0.0048778156774235545,
+              1.0104499899574295,
+              -0.007128420789432988,
+              -0.0007798301444269017,
+              0.019876604425152235
+            ],
+            "colour_fit": [
+              [
+                0.8893052076269696,
+                20.214231281463984
+              ],
+              [
+                0.9671853510481632,
+                10.988838055738691
+              ],
+              [
+                0.9381063897190369,
+                12.156935998722638
+              ]
+            ]
+          }
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            8,
+            32
+          ],
+          [
+            112,
+            32
+          ],
+          [
+            112,
+            112
+          ],
+          [
+            8,
+            112
+          ]
+        ]
+      ]
+    },
+    "gui/journal/hardcore_traits/powerful_journal.png": {
+      "source_size": [
+        120,
+        120
+      ],
+      "source_sha256": "4549e4e840440830d9e6617fd3e62ea6191413a9a7a5279cca9b4073dd45634d",
+      "artifact": "ru_support/images/pilot_refresh/powerful_title.png",
+      "artifact_size": [
+        2168,
+        725
+      ],
+      "artifact_sha256": "95e6da6819f47d260f92899f818f460acdbc2e023b84aa432f03532d6ca4c92c",
+      "regions": [
+        {
+          "generated_rect": [
+            5,
+            103,
+            2168,
+            610
+          ],
+          "destination_rect": [
+            8,
+            8,
+            112,
+            30
+          ],
+          "edge_feather": 0,
+          "letter_mask": "ru_support/images/pilot_refresh/powerful_letter_mask.png",
+          "background_repair": {
+            "artifact": "ru_support/images/pilot_refresh/powerful_cleanplate.png",
+            "generated_rect": [
+              0,
+              131,
+              2167,
+              583
+            ],
+            "source_erase_mask": "ru_support/images/pilot_refresh/powerful_english_mask.png",
+            "source_mask_rect": [
+              22,
+              22,
+              291,
+              79
+            ],
+            "uv_homography": [
+              0.9974014269199406,
+              0.0006129645058207607,
+              0.000883558703304967,
+              0.0025259259589206304,
+              0.9947291458179253,
+              -0.0052607531034610305,
+              -0.0038169124743243367,
+              0.0062017492057506824
+            ],
+            "colour_fit": [
+              [
+                1.1748328910391947,
+                -52.14814099542153
+              ],
+              [
+                0.8169238360907296,
+                27.993627369930802
+              ],
+              [
+                0.3588133204573686,
+                46.49348944285809
+              ]
+            ]
+          }
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            8,
+            31
+          ],
+          [
+            112,
+            31
+          ],
+          [
+            112,
+            112
+          ],
+          [
+            8,
+            112
+          ]
+        ]
+      ]
+    },
+    "gui/journal/hardcore_traits/street_journal.png": {
+      "source_size": [
+        120,
+        120
+      ],
+      "source_sha256": "8aac3ef60969d497e9633fefd5a46878248bb5db579a4c4cc634eaf72874983e",
+      "artifact": "ru_support/images/pilot_refresh/street_title.png",
+      "artifact_size": [
+        2167,
+        725
+      ],
+      "artifact_sha256": "9e19567f95f70c5ec7047b568c48fa7c7471d7678a6800a9e87953b56a049e7b",
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            101,
+            2167,
+            592
+          ],
+          "destination_rect": [
+            8,
+            8,
+            112,
+            28
+          ],
+          "edge_feather": 0,
+          "letter_mask": "ru_support/images/pilot_refresh/street_letter_mask.png",
+          "background_repair": {
+            "artifact": "ru_support/images/pilot_refresh/street_cleanplate.png",
+            "generated_rect": [
+              0,
+              117,
+              2168,
+              537
+            ],
+            "source_erase_mask": "ru_support/images/pilot_refresh/street_english_mask.png",
+            "source_mask_rect": [
+              22,
+              22,
+              291,
+              74
+            ],
+            "uv_homography": [
+              0.9907832531331581,
+              -0.0016152884182634544,
+              0.00542786328767984,
+              0.009329030351404616,
+              1.0095991469565258,
+              -0.010503311605521422,
+              -0.0019445075673117825,
+              -0.0015640192501102219
+            ],
+            "colour_fit": [
+              [
+                0.9265935081308098,
+                18.12911851131199
+              ],
+              [
+                0.8868140858486173,
+                24.83288533821443
+              ],
+              [
+                0.9883291129456038,
+                3.1963518216233195
+              ]
+            ]
+          }
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            8,
+            28
+          ],
+          [
+            112,
+            28
+          ],
+          [
+            112,
+            112
+          ],
+          [
+            8,
+            112
+          ]
+        ]
+      ]
+    },
+    "gui/journal/traits/animals_journal.png": {
+      "source_size": [
+        160,
+        160
+      ],
+      "source_sha256": "6a35f5fdf538a6e5cc5e89d6c55d920daf733dde943047aa4f94e715df83e8e2",
+      "artifact": "ru_support/images/pilot_refresh/animals_title.png",
+      "artifact_size": [
+        2167,
+        726
+      ],
+      "artifact_sha256": "adb8eef49f38977a089e015c165e67f5a456aca5efe46aaf8600a9d2e4a5eb2e",
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            107,
+            2167,
+            618
+          ],
+          "destination_rect": [
+            30,
+            14,
+            135,
+            37
+          ],
+          "edge_feather": 0,
+          "letter_mask": "ru_support/images/pilot_refresh/animals_letter_mask.png",
+          "background_repair": {
+            "artifact": "ru_support/images/pilot_refresh/animals_cleanplate.png",
+            "generated_rect": [
+              290,
+              191,
+              1974,
+              557
+            ],
+            "source_erase_mask": "ru_support/images/pilot_refresh/animals_english_mask.png",
+            "source_mask_rect": [
+              58,
+              27,
+              264,
+              73
+            ],
+            "uv_homography": [
+              0.9647952583092291,
+              -0.009697627597521304,
+              0.004662386621369787,
+              -0.061082513020413905,
+              0.9445941183076906,
+              0.021994157827312726,
+              -0.018677579407292255,
+              -0.01612954340672087
+            ],
+            "colour_fit": [
+              [
+                0.40483402165076005,
+                144.04281422657678
+              ],
+              [
+                1.011026184345359,
+                -0.5832375753502622
+              ],
+              [
+                0.8341665751692834,
+                20.126629281999495
+              ]
+            ]
+          }
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            11,
+            11
+          ],
+          [
+            26,
+            11
+          ],
+          [
+            31,
+            35
+          ],
+          [
+            29,
+            53
+          ],
+          [
+            11,
+            59
+          ]
+        ],
+        [
+          [
+            137,
+            11
+          ],
+          [
+            149,
+            11
+          ],
+          [
+            149,
+            61
+          ],
+          [
+            95,
+            61
+          ],
+          [
+            107,
+            46
+          ],
+          [
+            122,
+            39
+          ],
+          [
+            142,
+            32
+          ]
+        ],
+        [
+          [
+            11,
+            47
+          ],
+          [
+            149,
+            47
+          ],
+          [
+            149,
+            149
+          ],
+          [
+            11,
+            149
+          ]
+        ]
+      ]
+    },
+    "gui/journal/traits/book_journal.png": {
+      "source_size": [
+        160,
+        160
+      ],
+      "source_sha256": "aff30a9b89aa49ddf567543d826a3366403c9a3e86b4cabc736f415da571795f",
+      "artifact": "ru_support/images/pilot_refresh/book_title.png",
+      "artifact_size": [
+        2168,
+        725
+      ],
+      "artifact_sha256": "007f0ed58a848ce2d1e2b9f2dd0d076a45691e2d51f9b62a0a554f0cffaa2625",
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            130,
+            2168,
+            558
+          ],
+          "destination_rect": [
+            11,
+            11,
+            149,
+            40
+          ],
+          "edge_feather": 0,
+          "letter_mask": "ru_support/images/pilot_refresh/book_letter_mask.png",
+          "background_repair": {
+            "artifact": "ru_support/images/pilot_refresh/book_cleanplate.png",
+            "generated_rect": [
+              0,
+              133,
+              2167,
+              587
+            ],
+            "source_erase_mask": "ru_support/images/pilot_refresh/book_english_mask.png",
+            "source_mask_rect": [
+              22,
+              22,
+              291,
+              78
+            ],
+            "uv_homography": [
+              0.9960038169558669,
+              0.0002812477780099319,
+              0.0009287841103233845,
+              0.004616390149875891,
+              0.9757851288550837,
+              3.913587166186997e-05,
+              -0.0020614274418189723,
+              0.00011664677605253721
+            ],
+            "colour_fit": [
+              [
+                1.0507598643580944,
+                -0.2793361169368278
+              ],
+              [
+                0.9673281555177708,
+                9.20640892303966
+              ],
+              [
+                0.9748301630107843,
+                5.526517075411487
+              ]
+            ]
+          }
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            11,
+            41
+          ],
+          [
+            149,
+            41
+          ],
+          [
+            149,
+            149
+          ],
+          [
+            11,
+            149
+          ]
+        ]
+      ]
+    },
+    "gui/journal/traits/hot_journal.png": {
+      "source_size": [
+        160,
+        160
+      ],
+      "source_sha256": "d32cf12d76b9ad4b65df8e4016ee566adfc44a8a3ca2eb788fe481a2fd0fab1b",
+      "artifact": "ru_support/images/pilot_refresh/hot_title.png",
+      "artifact_size": [
+        2167,
+        725
+      ],
+      "artifact_sha256": "810ad7529bddee63e2ba65146b107c8ec59f88dfabca2b75dc085c57899c2074",
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            116,
+            2167,
+            600
+          ],
+          "destination_rect": [
+            11,
+            11,
+            149,
+            42
+          ],
+          "edge_feather": 0,
+          "letter_mask": "ru_support/images/pilot_refresh/hot_letter_mask.png",
+          "background_repair": {
+            "artifact": "ru_support/images/pilot_refresh/hot_cleanplate.png",
+            "generated_rect": [
+              0,
+              119,
+              2167,
+              603
+            ],
+            "source_erase_mask": "ru_support/images/pilot_refresh/hot_english_mask.png",
+            "source_mask_rect": [
+              22,
+              22,
+              291,
+              82
+            ],
+            "uv_homography": [
+              0.9917942804980008,
+              0.00016041511004684622,
+              0.003096426387315016,
+              -0.0028562967905646436,
+              0.9817434900175728,
+              -0.0006914050951209627,
+              -0.002697235229637533,
+              -0.0017228283664935079
+            ],
+            "colour_fit": [
+              [
+                0.9505080542876426,
+                14.354119871198414
+              ],
+              [
+                0.942718796248709,
+                13.230552719969731
+              ],
+              [
+                0.9456180507360898,
+                6.187459034671296
+              ]
+            ]
+          }
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            11,
+            43
+          ],
+          [
+            149,
+            43
+          ],
+          [
+            149,
+            149
+          ],
+          [
+            11,
+            149
+          ]
+        ]
+      ]
+    },
+    "gui/journal/traits/keen_journal.png": {
+      "source_size": [
+        160,
+        160
+      ],
+      "source_sha256": "58d5177c9bfe0f10151b2b299f58d4a35e59b58f5adb9fc52f01b7b252b5651c",
+      "artifact": "ru_support/images/pilot_refresh/keen_title.png",
+      "artifact_size": [
+        2168,
+        725
+      ],
+      "artifact_sha256": "edf51e2c906be6180bd158399e275d238d1d74eac765751a9015638c33912e42",
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            147,
+            2168,
+            570
+          ],
+          "destination_rect": [
+            11,
+            11,
+            149,
+            39
+          ],
+          "edge_feather": 0,
+          "letter_mask": "ru_support/images/pilot_refresh/keen_letter_mask.png",
+          "background_repair": {
+            "artifact": "ru_support/images/pilot_refresh/keen_cleanplate.png",
+            "generated_rect": [
+              0,
+              139,
+              2168,
+              585
+            ],
+            "source_erase_mask": "ru_support/images/pilot_refresh/keen_english_mask.png",
+            "source_mask_rect": [
+              22,
+              22,
+              291,
+              76
+            ],
+            "uv_homography": [
+              0.9962173177605965,
+              -0.0003382753808737576,
+              0.0005677686250237794,
+              0.0010044056042503072,
+              0.9654474591540895,
+              0.002440906006737623,
+              -0.0026224582615196616,
+              -0.0004990219822464251
+            ],
+            "colour_fit": [
+              [
+                0.9796730109398727,
+                13.573141943622366
+              ],
+              [
+                0.9407391790588779,
+                11.9650751094362
+              ],
+              [
+                0.980841477183234,
+                -0.6055720976893706
+              ]
+            ]
+          }
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            11,
+            39
+          ],
+          [
+            149,
+            39
+          ],
+          [
+            149,
+            149
+          ],
+          [
+            11,
+            149
+          ]
+        ]
+      ]
+    },
+    "gui/journal/traits/mystical_journal.png": {
+      "source_size": [
+        160,
+        160
+      ],
+      "source_sha256": "f83961ccbb1c1721e06c5e3bc9d56dcd35a844aef108ecc6ea52c707979e70e6",
+      "artifact": "ru_support/images/pilot_refresh/mystic_title.png",
+      "artifact_size": [
+        2167,
+        725
+      ],
+      "artifact_sha256": "078b0474bba4631d097b4f8abe2d0bc9d081bc43dfa54c7c299964e135eb89d3",
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            77,
+            2167,
+            640
+          ],
+          "destination_rect": [
+            11,
+            11,
+            149,
+            42
+          ],
+          "edge_feather": 0,
+          "letter_mask": "ru_support/images/pilot_refresh/mystic_letter_mask.png",
+          "background_repair": {
+            "artifact": "ru_support/images/pilot_refresh/mystic_cleanplate.png",
+            "generated_rect": [
+              0,
+              115,
+              2168,
+              610
+            ],
+            "source_erase_mask": "ru_support/images/pilot_refresh/mystic_english_mask.png",
+            "source_mask_rect": [
+              22,
+              22,
+              291,
+              82
+            ],
+            "uv_homography": [
+              1.0035005729751478,
+              0.009205592216841512,
+              -0.002125156700894137,
+              0.0048778156774235545,
+              1.0104499899574295,
+              -0.007128420789432988,
+              -0.0007798301444269017,
+              0.019876604425152235
+            ],
+            "colour_fit": [
+              [
+                0.8893052076269696,
+                20.214231281463984
+              ],
+              [
+                0.9671853510481632,
+                10.988838055738691
+              ],
+              [
+                0.9381063897190369,
+                12.156935998722638
+              ]
+            ]
+          }
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            11,
+            42
+          ],
+          [
+            149,
+            42
+          ],
+          [
+            149,
+            149
+          ],
+          [
+            11,
+            149
+          ]
+        ]
+      ]
+    },
+    "gui/journal/traits/powerful_journal.png": {
+      "source_size": [
+        160,
+        160
+      ],
+      "source_sha256": "d3f4db0c2921ba4b597232447b6d39609669b8d5ebe7ca38135d4b5787215198",
+      "artifact": "ru_support/images/pilot_refresh/powerful_title.png",
+      "artifact_size": [
+        2168,
+        725
+      ],
+      "artifact_sha256": "95e6da6819f47d260f92899f818f460acdbc2e023b84aa432f03532d6ca4c92c",
+      "regions": [
+        {
+          "generated_rect": [
+            5,
+            103,
+            2168,
+            610
+          ],
+          "destination_rect": [
+            11,
+            11,
+            149,
+            40
+          ],
+          "edge_feather": 0,
+          "letter_mask": "ru_support/images/pilot_refresh/powerful_letter_mask.png",
+          "background_repair": {
+            "artifact": "ru_support/images/pilot_refresh/powerful_cleanplate.png",
+            "generated_rect": [
+              0,
+              131,
+              2167,
+              583
+            ],
+            "source_erase_mask": "ru_support/images/pilot_refresh/powerful_english_mask.png",
+            "source_mask_rect": [
+              22,
+              22,
+              291,
+              79
+            ],
+            "uv_homography": [
+              0.9974014269199406,
+              0.0006129645058207607,
+              0.000883558703304967,
+              0.0025259259589206304,
+              0.9947291458179253,
+              -0.0052607531034610305,
+              -0.0038169124743243367,
+              0.0062017492057506824
+            ],
+            "colour_fit": [
+              [
+                1.1748328910391947,
+                -52.14814099542153
+              ],
+              [
+                0.8169238360907296,
+                27.993627369930802
+              ],
+              [
+                0.3588133204573686,
+                46.49348944285809
+              ]
+            ]
+          }
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            11,
+            41
+          ],
+          [
+            149,
+            41
+          ],
+          [
+            149,
+            149
+          ],
+          [
+            11,
+            149
+          ]
+        ]
+      ]
+    },
+    "gui/journal/traits/street_journal.png": {
+      "source_size": [
+        160,
+        160
+      ],
+      "source_sha256": "9b7cf0587c726cb9cae860735b1268fc694ecfb188e0dc9027fb0ec2a8c4fe9e",
+      "artifact": "ru_support/images/pilot_refresh/street_title.png",
+      "artifact_size": [
+        2167,
+        725
+      ],
+      "artifact_sha256": "9e19567f95f70c5ec7047b568c48fa7c7471d7678a6800a9e87953b56a049e7b",
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            101,
+            2167,
+            592
+          ],
+          "destination_rect": [
+            11,
+            11,
+            149,
+            38
+          ],
+          "edge_feather": 0,
+          "letter_mask": "ru_support/images/pilot_refresh/street_letter_mask.png",
+          "background_repair": {
+            "artifact": "ru_support/images/pilot_refresh/street_cleanplate.png",
+            "generated_rect": [
+              0,
+              117,
+              2168,
+              537
+            ],
+            "source_erase_mask": "ru_support/images/pilot_refresh/street_english_mask.png",
+            "source_mask_rect": [
+              22,
+              22,
+              291,
+              74
+            ],
+            "uv_homography": [
+              0.9907832531331581,
+              -0.0016152884182634544,
+              0.00542786328767984,
+              0.009329030351404616,
+              1.0095991469565258,
+              -0.010503311605521422,
+              -0.0019445075673117825,
+              -0.0015640192501102219
+            ],
+            "colour_fit": [
+              [
+                0.9265935081308098,
+                18.12911851131199
+              ],
+              [
+                0.8868140858486173,
+                24.83288533821443
+              ],
+              [
+                0.9883291129456038,
+                3.1963518216233195
+              ]
+            ]
+          }
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            11,
+            38
+          ],
+          [
+            149,
+            38
+          ],
+          [
+            149,
+            149
+          ],
+          [
+            11,
+            149
+          ]
+        ]
+      ]
+    },
+    "gui/textbox_character_city.png": {
+      "source_size": [
+        1106,
+        480
+      ],
+      "source_sha256": "43db0f1dcfcca3d37d290ffd77e0cda63900fc861dcb346455d7aab974228c25",
+      "artifact": "ru_support/images/gui/textbox_character_city.png",
+      "artifact_size": [
+        1902,
+        827
+      ],
+      "artifact_sha256": "6596dd2b6e71ef1b0d9b9a032a73a471d3e8ae195621c40af7215d9a3b23e27b",
+      "regions": [
+        {
+          "generated_rect": [
+            356,
+            107,
+            1574,
+            246
+          ],
+          "destination_rect": [
+            210,
+            65,
+            910,
+            145
+          ],
+          "ink_extract": {
+            "channel": 0,
+            "opaque": 20,
+            "clear": 220,
+            "rgb": [
+              0,
+              0,
+              0
+            ]
+          },
+          "background_rgba": [
+            255,
+            255,
+            255,
+            230
+          ],
+          "replace_original_alpha": true
+        }
+      ],
+      "protected_polygons": []
+    },
+    "gui/textbox_character_name.png": {
+      "source_size": [
+        1106,
+        480
+      ],
+      "source_sha256": "b242507029a2b4d570814b19ca3f80dc6ba17003a93819e7aaf75d12ba7292e3",
+      "artifact": "ru_support/images/gui/textbox_character_name.png",
+      "artifact_size": [
+        1903,
+        826
+      ],
+      "artifact_sha256": "f112e642bb2885ceaa36c4288125c36594415384879b3178198a8274054a8aa7",
+      "regions": [
+        {
+          "generated_rect": [
+            582,
+            108,
+            1314,
+            246
+          ],
+          "destination_rect": [
+            340,
+            65,
+            760,
+            145
+          ],
+          "ink_extract": {
+            "channel": 0,
+            "opaque": 20,
+            "clear": 220,
+            "rgb": [
+              0,
+              0,
+              0
+            ]
+          },
+          "background_rgba": [
+            255,
+            255,
+            255,
+            230
+          ],
+          "replace_original_alpha": true
+        }
+      ],
+      "protected_polygons": []
+    },
+    "gui/traits/animals_hover.png": {
+      "source_size": [
+        313,
+        313
+      ],
+      "source_sha256": "ab335997cb96f470de1c99035bd0f5d8b148bbb5e41adb8f6f06a0f6bd6bf602",
+      "artifact": "ru_support/images/gui/traits/animals_hover.png",
+      "artifact_size": [
+        1254,
+        1254
+      ],
+      "artifact_sha256": "2a38b178a1cce3c67c5aa9339bb4d62846cadd8bcac059b9322eaf1d55d992cb",
+      "regions": [
+        {
+          "generated_rect": [
+            93,
+            92,
+            1166,
+            1136
+          ],
+          "destination_rect": [
+            25,
+            25,
+            289,
+            284
+          ],
+          "ink_extract": {
+            "channel": 0,
+            "opaque": 110,
+            "clear": 210,
+            "rgb": [
+              130,
+              81,
+              51
+            ]
+          },
+          "background_sample_rect": [
+            24,
+            25,
+            25,
+            284
+          ],
+          "edge_feather": 3
+        }
+      ],
+      "protected_polygons": []
+    },
+    "gui/traits/animals_idle.png": {
+      "source_size": [
+        313,
+        313
+      ],
+      "source_sha256": "8d42783f75deab11f68250975c3fbe986aab92a2b13c21b281c9664d12c66232",
+      "artifact": "ru_support/images/pilot_refresh/animals_title.png",
+      "artifact_size": [
+        2167,
+        726
+      ],
+      "artifact_sha256": "adb8eef49f38977a089e015c165e67f5a456aca5efe46aaf8600a9d2e4a5eb2e",
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            107,
+            2167,
+            618
+          ],
+          "destination_rect": [
+            58,
+            27,
+            264,
+            73
+          ],
+          "edge_feather": 0,
+          "letter_mask": "ru_support/images/pilot_refresh/animals_letter_mask.png",
+          "background_repair": {
+            "artifact": "ru_support/images/pilot_refresh/animals_cleanplate.png",
+            "generated_rect": [
+              290,
+              191,
+              1974,
+              557
+            ],
+            "source_erase_mask": "ru_support/images/pilot_refresh/animals_english_mask.png",
+            "source_mask_rect": [
+              58,
+              27,
+              264,
+              73
+            ],
+            "uv_homography": [
+              0.9647952583092291,
+              -0.009697627597521304,
+              0.004662386621369787,
+              -0.061082513020413905,
+              0.9445941183076906,
+              0.021994157827312726,
+              -0.018677579407292255,
+              -0.01612954340672087
+            ],
+            "colour_fit": [
+              [
+                0.40483402165076005,
+                144.04281422657678
+              ],
+              [
+                1.011026184345359,
+                -0.5832375753502622
+              ],
+              [
+                0.8341665751692834,
+                20.126629281999495
+              ]
+            ]
+          }
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            22,
+            22
+          ],
+          [
+            52,
+            22
+          ],
+          [
+            60,
+            68
+          ],
+          [
+            57,
+            103
+          ],
+          [
+            22,
+            115
+          ]
+        ],
+        [
+          [
+            268,
+            22
+          ],
+          [
+            292,
+            22
+          ],
+          [
+            292,
+            120
+          ],
+          [
+            185,
+            120
+          ],
+          [
+            210,
+            91
+          ],
+          [
+            238,
+            76
+          ],
+          [
+            277,
+            63
+          ]
+        ],
+        [
+          [
+            22,
+            92
+          ],
+          [
+            292,
+            92
+          ],
+          [
+            292,
+            292
+          ],
+          [
+            22,
+            292
+          ]
+        ]
+      ]
+    },
+    "gui/traits/animals_selected_hover.png": {
+      "source_size": [
+        313,
+        313
+      ],
+      "source_sha256": "5a95830f9353ac2d9f3554cf7e892cbfc361ed738bd1edce20a1db5d8577969e",
+      "artifact": "ru_support/images/gui/traits/animals_hover.png",
+      "artifact_size": [
+        1254,
+        1254
+      ],
+      "artifact_sha256": "2a38b178a1cce3c67c5aa9339bb4d62846cadd8bcac059b9322eaf1d55d992cb",
+      "regions": [
+        {
+          "generated_rect": [
+            93,
+            92,
+            1166,
+            1136
+          ],
+          "destination_rect": [
+            25,
+            25,
+            289,
+            284
+          ],
+          "ink_extract": {
+            "channel": 0,
+            "opaque": 110,
+            "clear": 210,
+            "rgb": [
+              130,
+              81,
+              51
+            ]
+          },
+          "background_sample_rect": [
+            24,
+            25,
+            25,
+            284
+          ],
+          "edge_feather": 3
+        }
+      ],
+      "protected_polygons": []
+    },
+    "gui/traits/animals_selected_idle.png": {
+      "source_size": [
+        313,
+        313
+      ],
+      "source_sha256": "a009d66a505ecadd553ef5f0b08a4465e9f4a4da11d0d3cbc07b58c762ac709e",
+      "artifact": "ru_support/images/pilot_refresh/animals_title.png",
+      "artifact_size": [
+        2167,
+        726
+      ],
+      "artifact_sha256": "adb8eef49f38977a089e015c165e67f5a456aca5efe46aaf8600a9d2e4a5eb2e",
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            107,
+            2167,
+            618
+          ],
+          "destination_rect": [
+            58,
+            27,
+            264,
+            73
+          ],
+          "edge_feather": 0,
+          "letter_mask": "ru_support/images/pilot_refresh/animals_letter_mask.png",
+          "background_repair": {
+            "artifact": "ru_support/images/pilot_refresh/animals_cleanplate.png",
+            "generated_rect": [
+              290,
+              191,
+              1974,
+              557
+            ],
+            "source_erase_mask": "ru_support/images/pilot_refresh/animals_english_mask.png",
+            "source_mask_rect": [
+              58,
+              27,
+              264,
+              73
+            ],
+            "uv_homography": [
+              0.9647952583092291,
+              -0.009697627597521304,
+              0.004662386621369787,
+              -0.061082513020413905,
+              0.9445941183076906,
+              0.021994157827312726,
+              -0.018677579407292255,
+              -0.01612954340672087
+            ],
+            "colour_fit": [
+              [
+                0.40483402165076005,
+                144.04281422657678
+              ],
+              [
+                1.011026184345359,
+                -0.5832375753502622
+              ],
+              [
+                0.8341665751692834,
+                20.126629281999495
+              ]
+            ]
+          }
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            22,
+            22
+          ],
+          [
+            52,
+            22
+          ],
+          [
+            60,
+            68
+          ],
+          [
+            57,
+            103
+          ],
+          [
+            22,
+            115
+          ]
+        ],
+        [
+          [
+            268,
+            22
+          ],
+          [
+            292,
+            22
+          ],
+          [
+            292,
+            120
+          ],
+          [
+            185,
+            120
+          ],
+          [
+            210,
+            91
+          ],
+          [
+            238,
+            76
+          ],
+          [
+            277,
+            63
+          ]
+        ],
+        [
+          [
+            22,
+            92
+          ],
+          [
+            292,
+            92
+          ],
+          [
+            292,
+            292
+          ],
+          [
+            22,
+            292
+          ]
+        ]
+      ]
+    },
+    "gui/traits/book_hover.png": {
+      "source_size": [
+        313,
+        313
+      ],
+      "source_sha256": "37ccb83ffca533378753b9110fb7c29a7a6678d84e501100fad467df0e0a45e4",
+      "artifact": "ru_support/images/gui/traits/book_hover.png",
+      "artifact_size": [
+        1254,
+        1254
+      ],
+      "artifact_sha256": "660700f9e14a2730efada2965fc5903e697fbcea654830f64f090889ed7daf47",
+      "regions": [
+        {
+          "generated_rect": [
+            94,
+            95,
+            1165,
+            1142
+          ],
+          "destination_rect": [
+            25,
+            25,
+            289,
+            284
+          ],
+          "ink_extract": {
+            "channel": 1,
+            "opaque": 55,
+            "clear": 135,
+            "rgb": [
+              20,
+              69,
+              45
+            ]
+          },
+          "background_sample_rect": [
+            24,
+            25,
+            25,
+            284
+          ],
+          "edge_feather": 3
+        }
+      ],
+      "protected_polygons": []
+    },
+    "gui/traits/book_idle.png": {
+      "source_size": [
+        313,
+        313
+      ],
+      "source_sha256": "54505b9fd98dc1e96cb462c519634aeec84380faae81d375ec341c95b58fe4c8",
+      "artifact": "ru_support/images/pilot_refresh/book_title.png",
+      "artifact_size": [
+        2168,
+        725
+      ],
+      "artifact_sha256": "007f0ed58a848ce2d1e2b9f2dd0d076a45691e2d51f9b62a0a554f0cffaa2625",
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            130,
+            2168,
+            558
+          ],
+          "destination_rect": [
+            22,
+            22,
+            291,
+            78
+          ],
+          "edge_feather": 0,
+          "letter_mask": "ru_support/images/pilot_refresh/book_letter_mask.png",
+          "background_repair": {
+            "artifact": "ru_support/images/pilot_refresh/book_cleanplate.png",
+            "generated_rect": [
+              0,
+              133,
+              2167,
+              587
+            ],
+            "source_erase_mask": "ru_support/images/pilot_refresh/book_english_mask.png",
+            "source_mask_rect": [
+              22,
+              22,
+              291,
+              78
+            ],
+            "uv_homography": [
+              0.9960038169558669,
+              0.0002812477780099319,
+              0.0009287841103233845,
+              0.004616390149875891,
+              0.9757851288550837,
+              3.913587166186997e-05,
+              -0.0020614274418189723,
+              0.00011664677605253721
+            ],
+            "colour_fit": [
+              [
+                1.0507598643580944,
+                -0.2793361169368278
+              ],
+              [
+                0.9673281555177708,
+                9.20640892303966
+              ],
+              [
+                0.9748301630107843,
+                5.526517075411487
+              ]
+            ]
+          }
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            22,
+            80
+          ],
+          [
+            292,
+            80
+          ],
+          [
+            292,
+            292
+          ],
+          [
+            22,
+            292
+          ]
+        ]
+      ]
+    },
+    "gui/traits/book_selected_hover.png": {
+      "source_size": [
+        313,
+        313
+      ],
+      "source_sha256": "54ab0a9d9a4bcee90a7839ee8159df8df06c586df45e479c07324a19b49e00cd",
+      "artifact": "ru_support/images/gui/traits/book_hover.png",
+      "artifact_size": [
+        1254,
+        1254
+      ],
+      "artifact_sha256": "660700f9e14a2730efada2965fc5903e697fbcea654830f64f090889ed7daf47",
+      "regions": [
+        {
+          "generated_rect": [
+            94,
+            95,
+            1165,
+            1142
+          ],
+          "destination_rect": [
+            25,
+            25,
+            289,
+            284
+          ],
+          "ink_extract": {
+            "channel": 1,
+            "opaque": 55,
+            "clear": 135,
+            "rgb": [
+              20,
+              69,
+              45
+            ]
+          },
+          "background_sample_rect": [
+            24,
+            25,
+            25,
+            284
+          ],
+          "edge_feather": 3
+        }
+      ],
+      "protected_polygons": []
+    },
+    "gui/traits/book_selected_idle.png": {
+      "source_size": [
+        313,
+        313
+      ],
+      "source_sha256": "8b14accb6597d534f2d73dc45d1c14c7b806e6a218d23c72109894a0c978c3d8",
+      "artifact": "ru_support/images/pilot_refresh/book_title.png",
+      "artifact_size": [
+        2168,
+        725
+      ],
+      "artifact_sha256": "007f0ed58a848ce2d1e2b9f2dd0d076a45691e2d51f9b62a0a554f0cffaa2625",
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            130,
+            2168,
+            558
+          ],
+          "destination_rect": [
+            22,
+            22,
+            291,
+            78
+          ],
+          "edge_feather": 0,
+          "letter_mask": "ru_support/images/pilot_refresh/book_letter_mask.png",
+          "background_repair": {
+            "artifact": "ru_support/images/pilot_refresh/book_cleanplate.png",
+            "generated_rect": [
+              0,
+              133,
+              2167,
+              587
+            ],
+            "source_erase_mask": "ru_support/images/pilot_refresh/book_english_mask.png",
+            "source_mask_rect": [
+              22,
+              22,
+              291,
+              78
+            ],
+            "uv_homography": [
+              0.9960038169558669,
+              0.0002812477780099319,
+              0.0009287841103233845,
+              0.004616390149875891,
+              0.9757851288550837,
+              3.913587166186997e-05,
+              -0.0020614274418189723,
+              0.00011664677605253721
+            ],
+            "colour_fit": [
+              [
+                1.0507598643580944,
+                -0.2793361169368278
+              ],
+              [
+                0.9673281555177708,
+                9.20640892303966
+              ],
+              [
+                0.9748301630107843,
+                5.526517075411487
+              ]
+            ]
+          }
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            22,
+            80
+          ],
+          [
+            292,
+            80
+          ],
+          [
+            292,
+            292
+          ],
+          [
+            22,
+            292
+          ]
+        ]
+      ]
+    },
+    "gui/traits/hot_hover.png": {
+      "source_size": [
+        313,
+        313
+      ],
+      "source_sha256": "50077e98370d1a9675ee4f8012b695b7ace43d78d8851b89cafc9e7942a9dc44",
+      "artifact": "ru_support/images/gui/traits/hot_hover.png",
+      "artifact_size": [
+        1254,
+        1254
+      ],
+      "artifact_sha256": "4d2a0a3e64a007f8a2224f6a79b1890337da3d5644e246a6b335eb679cd937a2",
+      "regions": [
+        {
+          "generated_rect": [
+            93,
+            91,
+            1166,
+            1141
+          ],
+          "destination_rect": [
+            25,
+            25,
+            289,
+            284
+          ],
+          "ink_extract": {
+            "channel": 0,
+            "opaque": 100,
+            "clear": 205,
+            "rgb": [
+              141,
+              68,
+              43
+            ]
+          },
+          "background_sample_rect": [
+            24,
+            25,
+            25,
+            284
+          ],
+          "edge_feather": 3
+        }
+      ],
+      "protected_polygons": []
+    },
+    "gui/traits/hot_idle.png": {
+      "source_size": [
+        313,
+        313
+      ],
+      "source_sha256": "ff88a22f600168f154f54f21836f65a00f80fc0b498a565bb0f56a25b65d6944",
+      "artifact": "ru_support/images/pilot_refresh/hot_title.png",
+      "artifact_size": [
+        2167,
+        725
+      ],
+      "artifact_sha256": "810ad7529bddee63e2ba65146b107c8ec59f88dfabca2b75dc085c57899c2074",
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            116,
+            2167,
+            600
+          ],
+          "destination_rect": [
+            22,
+            22,
+            291,
+            82
+          ],
+          "edge_feather": 0,
+          "letter_mask": "ru_support/images/pilot_refresh/hot_letter_mask.png",
+          "background_repair": {
+            "artifact": "ru_support/images/pilot_refresh/hot_cleanplate.png",
+            "generated_rect": [
+              0,
+              119,
+              2167,
+              603
+            ],
+            "source_erase_mask": "ru_support/images/pilot_refresh/hot_english_mask.png",
+            "source_mask_rect": [
+              22,
+              22,
+              291,
+              82
+            ],
+            "uv_homography": [
+              0.9917942804980008,
+              0.00016041511004684622,
+              0.003096426387315016,
+              -0.0028562967905646436,
+              0.9817434900175728,
+              -0.0006914050951209627,
+              -0.002697235229637533,
+              -0.0017228283664935079
+            ],
+            "colour_fit": [
+              [
+                0.9505080542876426,
+                14.354119871198414
+              ],
+              [
+                0.942718796248709,
+                13.230552719969731
+              ],
+              [
+                0.9456180507360898,
+                6.187459034671296
+              ]
+            ]
+          }
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            22,
+            84
+          ],
+          [
+            292,
+            84
+          ],
+          [
+            292,
+            292
+          ],
+          [
+            22,
+            292
+          ]
+        ]
+      ]
+    },
+    "gui/traits/hot_selected_hover.png": {
+      "source_size": [
+        313,
+        313
+      ],
+      "source_sha256": "fb7556f7af0d79a0d9160be06357aab36ab511477aa422fcd0bacb14b6a17dd6",
+      "artifact": "ru_support/images/gui/traits/hot_hover.png",
+      "artifact_size": [
+        1254,
+        1254
+      ],
+      "artifact_sha256": "4d2a0a3e64a007f8a2224f6a79b1890337da3d5644e246a6b335eb679cd937a2",
+      "regions": [
+        {
+          "generated_rect": [
+            93,
+            91,
+            1166,
+            1141
+          ],
+          "destination_rect": [
+            25,
+            25,
+            289,
+            284
+          ],
+          "ink_extract": {
+            "channel": 0,
+            "opaque": 100,
+            "clear": 205,
+            "rgb": [
+              141,
+              68,
+              43
+            ]
+          },
+          "background_sample_rect": [
+            24,
+            25,
+            25,
+            284
+          ],
+          "edge_feather": 3
+        }
+      ],
+      "protected_polygons": []
+    },
+    "gui/traits/hot_selected_idle.png": {
+      "source_size": [
+        313,
+        313
+      ],
+      "source_sha256": "a6f4ae72ca88bf981521ba7857997ff534350a97b1da19c4024ff07335b2f457",
+      "artifact": "ru_support/images/pilot_refresh/hot_title.png",
+      "artifact_size": [
+        2167,
+        725
+      ],
+      "artifact_sha256": "810ad7529bddee63e2ba65146b107c8ec59f88dfabca2b75dc085c57899c2074",
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            116,
+            2167,
+            600
+          ],
+          "destination_rect": [
+            22,
+            22,
+            291,
+            82
+          ],
+          "edge_feather": 0,
+          "letter_mask": "ru_support/images/pilot_refresh/hot_letter_mask.png",
+          "background_repair": {
+            "artifact": "ru_support/images/pilot_refresh/hot_cleanplate.png",
+            "generated_rect": [
+              0,
+              119,
+              2167,
+              603
+            ],
+            "source_erase_mask": "ru_support/images/pilot_refresh/hot_english_mask.png",
+            "source_mask_rect": [
+              22,
+              22,
+              291,
+              82
+            ],
+            "uv_homography": [
+              0.9917942804980008,
+              0.00016041511004684622,
+              0.003096426387315016,
+              -0.0028562967905646436,
+              0.9817434900175728,
+              -0.0006914050951209627,
+              -0.002697235229637533,
+              -0.0017228283664935079
+            ],
+            "colour_fit": [
+              [
+                0.9505080542876426,
+                14.354119871198414
+              ],
+              [
+                0.942718796248709,
+                13.230552719969731
+              ],
+              [
+                0.9456180507360898,
+                6.187459034671296
+              ]
+            ]
+          }
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            22,
+            84
+          ],
+          [
+            292,
+            84
+          ],
+          [
+            292,
+            292
+          ],
+          [
+            22,
+            292
+          ]
+        ]
+      ]
+    },
+    "gui/traits/keen_hover.png": {
+      "source_size": [
+        313,
+        313
+      ],
+      "source_sha256": "86acb6c5a2ccca25980cabc7dca9523775b24385ed9c01121210aae91b050a31",
+      "artifact": "ru_support/images/gui/traits/keen_hover.png",
+      "artifact_size": [
+        1254,
+        1254
+      ],
+      "artifact_sha256": "425d1914565ce6762e7c352225e0f7933bec2d9454afd43d2798ffae9acc1500",
+      "regions": [
+        {
+          "generated_rect": [
+            88,
+            90,
+            1171,
+            1148
+          ],
+          "destination_rect": [
+            25,
+            25,
+            289,
+            284
+          ],
+          "ink_extract": {
+            "channel": 2,
+            "opaque": 100,
+            "clear": 160,
+            "rgb": [
+              36,
+              54,
+              103
+            ]
+          },
+          "background_sample_rect": [
+            24,
+            25,
+            25,
+            284
+          ],
+          "edge_feather": 3
+        }
+      ],
+      "protected_polygons": []
+    },
+    "gui/traits/keen_idle.png": {
+      "source_size": [
+        313,
+        313
+      ],
+      "source_sha256": "a7bbccac0ae64dfd451fe60ff4f3c9dfea78392069d763a3ca4ff468e56b6a06",
+      "artifact": "ru_support/images/pilot_refresh/keen_title.png",
+      "artifact_size": [
+        2168,
+        725
+      ],
+      "artifact_sha256": "edf51e2c906be6180bd158399e275d238d1d74eac765751a9015638c33912e42",
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            147,
+            2168,
+            570
+          ],
+          "destination_rect": [
+            22,
+            22,
+            291,
+            76
+          ],
+          "edge_feather": 0,
+          "letter_mask": "ru_support/images/pilot_refresh/keen_letter_mask.png",
+          "background_repair": {
+            "artifact": "ru_support/images/pilot_refresh/keen_cleanplate.png",
+            "generated_rect": [
+              0,
+              139,
+              2168,
+              585
+            ],
+            "source_erase_mask": "ru_support/images/pilot_refresh/keen_english_mask.png",
+            "source_mask_rect": [
+              22,
+              22,
+              291,
+              76
+            ],
+            "uv_homography": [
+              0.9962173177605965,
+              -0.0003382753808737576,
+              0.0005677686250237794,
+              0.0010044056042503072,
+              0.9654474591540895,
+              0.002440906006737623,
+              -0.0026224582615196616,
+              -0.0004990219822464251
+            ],
+            "colour_fit": [
+              [
+                0.9796730109398727,
+                13.573141943622366
+              ],
+              [
+                0.9407391790588779,
+                11.9650751094362
+              ],
+              [
+                0.980841477183234,
+                -0.6055720976893706
+              ]
+            ]
+          }
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            22,
+            77
+          ],
+          [
+            292,
+            77
+          ],
+          [
+            292,
+            292
+          ],
+          [
+            22,
+            292
+          ]
+        ]
+      ]
+    },
+    "gui/traits/keen_selected_hover.png": {
+      "source_size": [
+        313,
+        313
+      ],
+      "source_sha256": "995a851208d0f642f12feef017e9c5814ee28bd13b5870cc324ac51ea99ed037",
+      "artifact": "ru_support/images/gui/traits/keen_hover.png",
+      "artifact_size": [
+        1254,
+        1254
+      ],
+      "artifact_sha256": "425d1914565ce6762e7c352225e0f7933bec2d9454afd43d2798ffae9acc1500",
+      "regions": [
+        {
+          "generated_rect": [
+            88,
+            90,
+            1171,
+            1148
+          ],
+          "destination_rect": [
+            25,
+            25,
+            289,
+            284
+          ],
+          "ink_extract": {
+            "channel": 2,
+            "opaque": 100,
+            "clear": 160,
+            "rgb": [
+              36,
+              54,
+              103
+            ]
+          },
+          "background_sample_rect": [
+            24,
+            25,
+            25,
+            284
+          ],
+          "edge_feather": 3
+        }
+      ],
+      "protected_polygons": []
+    },
+    "gui/traits/keen_selected_idle.png": {
+      "source_size": [
+        313,
+        313
+      ],
+      "source_sha256": "01a8b067f00655a19d455e05e67a94f2e9f4b9ea8f0a8b7988b856e25d0e5705",
+      "artifact": "ru_support/images/pilot_refresh/keen_title.png",
+      "artifact_size": [
+        2168,
+        725
+      ],
+      "artifact_sha256": "edf51e2c906be6180bd158399e275d238d1d74eac765751a9015638c33912e42",
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            147,
+            2168,
+            570
+          ],
+          "destination_rect": [
+            22,
+            22,
+            291,
+            76
+          ],
+          "edge_feather": 0,
+          "letter_mask": "ru_support/images/pilot_refresh/keen_letter_mask.png",
+          "background_repair": {
+            "artifact": "ru_support/images/pilot_refresh/keen_cleanplate.png",
+            "generated_rect": [
+              0,
+              139,
+              2168,
+              585
+            ],
+            "source_erase_mask": "ru_support/images/pilot_refresh/keen_english_mask.png",
+            "source_mask_rect": [
+              22,
+              22,
+              291,
+              76
+            ],
+            "uv_homography": [
+              0.9962173177605965,
+              -0.0003382753808737576,
+              0.0005677686250237794,
+              0.0010044056042503072,
+              0.9654474591540895,
+              0.002440906006737623,
+              -0.0026224582615196616,
+              -0.0004990219822464251
+            ],
+            "colour_fit": [
+              [
+                0.9796730109398727,
+                13.573141943622366
+              ],
+              [
+                0.9407391790588779,
+                11.9650751094362
+              ],
+              [
+                0.980841477183234,
+                -0.6055720976893706
+              ]
+            ]
+          }
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            22,
+            77
+          ],
+          [
+            292,
+            77
+          ],
+          [
+            292,
+            292
+          ],
+          [
+            22,
+            292
+          ]
+        ]
+      ]
+    },
+    "gui/traits/mystic_hover.png": {
+      "source_size": [
+        313,
+        313
+      ],
+      "source_sha256": "9a085fb2ed6d10999205a89876b1cbd347c4cb2e27fbbb9e241b0f48708d6813",
+      "artifact": "ru_support/images/gui/traits/mystic_hover.png",
+      "artifact_size": [
+        1254,
+        1254
+      ],
+      "artifact_sha256": "7a03ee3142a5929b019bf100fbae2dcb1e86348a748058c50fb926863ea3cca1",
+      "regions": [
+        {
+          "generated_rect": [
+            92,
+            92,
+            1167,
+            1144
+          ],
+          "destination_rect": [
+            25,
+            25,
+            289,
+            284
+          ],
+          "ink_extract": {
+            "channel": 0,
+            "opaque": 60,
+            "clear": 110,
+            "rgb": [
+              72,
+              59,
+              140
+            ]
+          },
+          "background_sample_rect": [
+            24,
+            25,
+            25,
+            284
+          ],
+          "edge_feather": 3
+        }
+      ],
+      "protected_polygons": []
+    },
+    "gui/traits/mystic_idle.png": {
+      "source_size": [
+        313,
+        313
+      ],
+      "source_sha256": "6400acd9898ce826111c069c19df1a5200fec731f683159cbb6f3f3e3cd3448c",
+      "artifact": "ru_support/images/pilot_refresh/mystic_title.png",
+      "artifact_size": [
+        2167,
+        725
+      ],
+      "artifact_sha256": "078b0474bba4631d097b4f8abe2d0bc9d081bc43dfa54c7c299964e135eb89d3",
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            77,
+            2167,
+            640
+          ],
+          "destination_rect": [
+            22,
+            22,
+            291,
+            82
+          ],
+          "edge_feather": 0,
+          "letter_mask": "ru_support/images/pilot_refresh/mystic_letter_mask.png",
+          "background_repair": {
+            "artifact": "ru_support/images/pilot_refresh/mystic_cleanplate.png",
+            "generated_rect": [
+              0,
+              115,
+              2168,
+              610
+            ],
+            "source_erase_mask": "ru_support/images/pilot_refresh/mystic_english_mask.png",
+            "source_mask_rect": [
+              22,
+              22,
+              291,
+              82
+            ],
+            "uv_homography": [
+              1.0035005729751478,
+              0.009205592216841512,
+              -0.002125156700894137,
+              0.0048778156774235545,
+              1.0104499899574295,
+              -0.007128420789432988,
+              -0.0007798301444269017,
+              0.019876604425152235
+            ],
+            "colour_fit": [
+              [
+                0.8893052076269696,
+                20.214231281463984
+              ],
+              [
+                0.9671853510481632,
+                10.988838055738691
+              ],
+              [
+                0.9381063897190369,
+                12.156935998722638
+              ]
+            ]
+          }
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            22,
+            83
+          ],
+          [
+            292,
+            83
+          ],
+          [
+            292,
+            292
+          ],
+          [
+            22,
+            292
+          ]
+        ]
+      ]
+    },
+    "gui/traits/mystic_selected_hover.png": {
+      "source_size": [
+        313,
+        313
+      ],
+      "source_sha256": "2cb2943fc4167ca298a37d97c26c1f219a66f3f438afedd6efab119352be91f7",
+      "artifact": "ru_support/images/gui/traits/mystic_hover.png",
+      "artifact_size": [
+        1254,
+        1254
+      ],
+      "artifact_sha256": "7a03ee3142a5929b019bf100fbae2dcb1e86348a748058c50fb926863ea3cca1",
+      "regions": [
+        {
+          "generated_rect": [
+            92,
+            92,
+            1167,
+            1144
+          ],
+          "destination_rect": [
+            25,
+            25,
+            289,
+            284
+          ],
+          "ink_extract": {
+            "channel": 0,
+            "opaque": 60,
+            "clear": 110,
+            "rgb": [
+              72,
+              59,
+              140
+            ]
+          },
+          "background_sample_rect": [
+            24,
+            25,
+            25,
+            284
+          ],
+          "edge_feather": 3
+        }
+      ],
+      "protected_polygons": []
+    },
+    "gui/traits/mystic_selected_idle.png": {
+      "source_size": [
+        313,
+        313
+      ],
+      "source_sha256": "15111abcfc2d4e1d9c606f787ff0f80bcc04e8682ad6095ec0b5a55a40986695",
+      "artifact": "ru_support/images/pilot_refresh/mystic_title.png",
+      "artifact_size": [
+        2167,
+        725
+      ],
+      "artifact_sha256": "078b0474bba4631d097b4f8abe2d0bc9d081bc43dfa54c7c299964e135eb89d3",
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            77,
+            2167,
+            640
+          ],
+          "destination_rect": [
+            22,
+            22,
+            291,
+            82
+          ],
+          "edge_feather": 0,
+          "letter_mask": "ru_support/images/pilot_refresh/mystic_letter_mask.png",
+          "background_repair": {
+            "artifact": "ru_support/images/pilot_refresh/mystic_cleanplate.png",
+            "generated_rect": [
+              0,
+              115,
+              2168,
+              610
+            ],
+            "source_erase_mask": "ru_support/images/pilot_refresh/mystic_english_mask.png",
+            "source_mask_rect": [
+              22,
+              22,
+              291,
+              82
+            ],
+            "uv_homography": [
+              1.0035005729751478,
+              0.009205592216841512,
+              -0.002125156700894137,
+              0.0048778156774235545,
+              1.0104499899574295,
+              -0.007128420789432988,
+              -0.0007798301444269017,
+              0.019876604425152235
+            ],
+            "colour_fit": [
+              [
+                0.8893052076269696,
+                20.214231281463984
+              ],
+              [
+                0.9671853510481632,
+                10.988838055738691
+              ],
+              [
+                0.9381063897190369,
+                12.156935998722638
+              ]
+            ]
+          }
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            22,
+            83
+          ],
+          [
+            292,
+            83
+          ],
+          [
+            292,
+            292
+          ],
+          [
+            22,
+            292
+          ]
+        ]
+      ]
+    },
+    "gui/traits/powerful_hover.png": {
+      "source_size": [
+        313,
+        313
+      ],
+      "source_sha256": "19058038134fbda62de7d7f47130e9c13582a01c43d673f0077898128390f268",
+      "artifact": "ru_support/images/gui/traits/powerful_hover.png",
+      "artifact_size": [
+        1254,
+        1254
+      ],
+      "artifact_sha256": "3c4487e03787ff16e708b94a60224b47956f71994fdb256960dcf6386446f0a1",
+      "regions": [
+        {
+          "generated_rect": [
+            93,
+            93,
+            1166,
+            1143
+          ],
+          "destination_rect": [
+            25,
+            25,
+            289,
+            284
+          ],
+          "ink_extract": {
+            "channel": 0,
+            "opaque": 100,
+            "clear": 190,
+            "rgb": [
+              116,
+              37,
+              26
+            ]
+          },
+          "background_sample_rect": [
+            24,
+            25,
+            25,
+            284
+          ],
+          "edge_feather": 3
+        }
+      ],
+      "protected_polygons": []
+    },
+    "gui/traits/powerful_idle.png": {
+      "source_size": [
+        313,
+        313
+      ],
+      "source_sha256": "da5ce21584f4f452f3916d01ddf1261482a8edbb7c3bdeff6d58184b0aeb46af",
+      "artifact": "ru_support/images/pilot_refresh/powerful_title.png",
+      "artifact_size": [
+        2168,
+        725
+      ],
+      "artifact_sha256": "95e6da6819f47d260f92899f818f460acdbc2e023b84aa432f03532d6ca4c92c",
+      "regions": [
+        {
+          "generated_rect": [
+            5,
+            103,
+            2168,
+            610
+          ],
+          "destination_rect": [
+            22,
+            22,
+            291,
+            79
+          ],
+          "edge_feather": 0,
+          "letter_mask": "ru_support/images/pilot_refresh/powerful_letter_mask.png",
+          "background_repair": {
+            "artifact": "ru_support/images/pilot_refresh/powerful_cleanplate.png",
+            "generated_rect": [
+              0,
+              131,
+              2167,
+              583
+            ],
+            "source_erase_mask": "ru_support/images/pilot_refresh/powerful_english_mask.png",
+            "source_mask_rect": [
+              22,
+              22,
+              291,
+              79
+            ],
+            "uv_homography": [
+              0.9974014269199406,
+              0.0006129645058207607,
+              0.000883558703304967,
+              0.0025259259589206304,
+              0.9947291458179253,
+              -0.0052607531034610305,
+              -0.0038169124743243367,
+              0.0062017492057506824
+            ],
+            "colour_fit": [
+              [
+                1.1748328910391947,
+                -52.14814099542153
+              ],
+              [
+                0.8169238360907296,
+                27.993627369930802
+              ],
+              [
+                0.3588133204573686,
+                46.49348944285809
+              ]
+            ]
+          }
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            22,
+            80
+          ],
+          [
+            292,
+            80
+          ],
+          [
+            292,
+            292
+          ],
+          [
+            22,
+            292
+          ]
+        ]
+      ]
+    },
+    "gui/traits/powerful_selected_hover.png": {
+      "source_size": [
+        313,
+        313
+      ],
+      "source_sha256": "003c4e95e5f3de048eee131673bb8eebbe35c88d571e4a204b4430361c590d5e",
+      "artifact": "ru_support/images/gui/traits/powerful_hover.png",
+      "artifact_size": [
+        1254,
+        1254
+      ],
+      "artifact_sha256": "3c4487e03787ff16e708b94a60224b47956f71994fdb256960dcf6386446f0a1",
+      "regions": [
+        {
+          "generated_rect": [
+            93,
+            93,
+            1166,
+            1143
+          ],
+          "destination_rect": [
+            25,
+            25,
+            289,
+            284
+          ],
+          "ink_extract": {
+            "channel": 0,
+            "opaque": 100,
+            "clear": 190,
+            "rgb": [
+              116,
+              37,
+              26
+            ]
+          },
+          "background_sample_rect": [
+            24,
+            25,
+            25,
+            284
+          ],
+          "edge_feather": 3
+        }
+      ],
+      "protected_polygons": []
+    },
+    "gui/traits/powerful_selected_idle.png": {
+      "source_size": [
+        313,
+        313
+      ],
+      "source_sha256": "ea206e2fe63e6435c69ee804eb20ad3ea4fa670c55f376958d47f8c283215dbf",
+      "artifact": "ru_support/images/pilot_refresh/powerful_title.png",
+      "artifact_size": [
+        2168,
+        725
+      ],
+      "artifact_sha256": "95e6da6819f47d260f92899f818f460acdbc2e023b84aa432f03532d6ca4c92c",
+      "regions": [
+        {
+          "generated_rect": [
+            5,
+            103,
+            2168,
+            610
+          ],
+          "destination_rect": [
+            22,
+            22,
+            291,
+            79
+          ],
+          "edge_feather": 0,
+          "letter_mask": "ru_support/images/pilot_refresh/powerful_letter_mask.png",
+          "background_repair": {
+            "artifact": "ru_support/images/pilot_refresh/powerful_cleanplate.png",
+            "generated_rect": [
+              0,
+              131,
+              2167,
+              583
+            ],
+            "source_erase_mask": "ru_support/images/pilot_refresh/powerful_english_mask.png",
+            "source_mask_rect": [
+              22,
+              22,
+              291,
+              79
+            ],
+            "uv_homography": [
+              0.9974014269199406,
+              0.0006129645058207607,
+              0.000883558703304967,
+              0.0025259259589206304,
+              0.9947291458179253,
+              -0.0052607531034610305,
+              -0.0038169124743243367,
+              0.0062017492057506824
+            ],
+            "colour_fit": [
+              [
+                1.1748328910391947,
+                -52.14814099542153
+              ],
+              [
+                0.8169238360907296,
+                27.993627369930802
+              ],
+              [
+                0.3588133204573686,
+                46.49348944285809
+              ]
+            ]
+          }
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            22,
+            80
+          ],
+          [
+            292,
+            80
+          ],
+          [
+            292,
+            292
+          ],
+          [
+            22,
+            292
+          ]
+        ]
+      ]
+    },
+    "gui/traits/street_hover.png": {
+      "source_size": [
+        313,
+        313
+      ],
+      "source_sha256": "230b36bc73c96a6a1df9b4429d5ab1e27feda62041d59c6e06a14a24a628ad68",
+      "artifact": "ru_support/images/gui/traits/street_hover.png",
+      "artifact_size": [
+        1254,
+        1254
+      ],
+      "artifact_sha256": "43f829d9a262bc6fc291eb2b829f6bcec68b4c00e9d200a62cd1c37990216c36",
+      "regions": [
+        {
+          "generated_rect": [
+            89,
+            90,
+            1169,
+            1145
+          ],
+          "destination_rect": [
+            25,
+            25,
+            289,
+            284
+          ],
+          "ink_extract": {
+            "channel": 0,
+            "opaque": 50,
+            "clear": 130,
+            "rgb": [
+              59,
+              82,
+              19
+            ]
+          },
+          "background_sample_rect": [
+            24,
+            25,
+            25,
+            284
+          ],
+          "edge_feather": 3
+        }
+      ],
+      "protected_polygons": []
+    },
+    "gui/traits/street_idle.png": {
+      "source_size": [
+        313,
+        313
+      ],
+      "source_sha256": "9d035033c043e104c47072efb013096fe7e76a2abb1fbddfd95ebf4522992936",
+      "artifact": "ru_support/images/pilot_refresh/street_title.png",
+      "artifact_size": [
+        2167,
+        725
+      ],
+      "artifact_sha256": "9e19567f95f70c5ec7047b568c48fa7c7471d7678a6800a9e87953b56a049e7b",
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            101,
+            2167,
+            592
+          ],
+          "destination_rect": [
+            22,
+            22,
+            291,
+            74
+          ],
+          "edge_feather": 0,
+          "letter_mask": "ru_support/images/pilot_refresh/street_letter_mask.png",
+          "background_repair": {
+            "artifact": "ru_support/images/pilot_refresh/street_cleanplate.png",
+            "generated_rect": [
+              0,
+              117,
+              2168,
+              537
+            ],
+            "source_erase_mask": "ru_support/images/pilot_refresh/street_english_mask.png",
+            "source_mask_rect": [
+              22,
+              22,
+              291,
+              74
+            ],
+            "uv_homography": [
+              0.9907832531331581,
+              -0.0016152884182634544,
+              0.00542786328767984,
+              0.009329030351404616,
+              1.0095991469565258,
+              -0.010503311605521422,
+              -0.0019445075673117825,
+              -0.0015640192501102219
+            ],
+            "colour_fit": [
+              [
+                0.9265935081308098,
+                18.12911851131199
+              ],
+              [
+                0.8868140858486173,
+                24.83288533821443
+              ],
+              [
+                0.9883291129456038,
+                3.1963518216233195
+              ]
+            ]
+          }
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            22,
+            74
+          ],
+          [
+            292,
+            74
+          ],
+          [
+            292,
+            292
+          ],
+          [
+            22,
+            292
+          ]
+        ]
+      ]
+    },
+    "gui/traits/street_selected_hover.png": {
+      "source_size": [
+        313,
+        313
+      ],
+      "source_sha256": "d1968ff1d0a42b7ac5b8264a9466fa8b34af87cdf5719757d026c48471c16aad",
+      "artifact": "ru_support/images/gui/traits/street_hover.png",
+      "artifact_size": [
+        1254,
+        1254
+      ],
+      "artifact_sha256": "43f829d9a262bc6fc291eb2b829f6bcec68b4c00e9d200a62cd1c37990216c36",
+      "regions": [
+        {
+          "generated_rect": [
+            89,
+            90,
+            1169,
+            1145
+          ],
+          "destination_rect": [
+            25,
+            25,
+            289,
+            284
+          ],
+          "ink_extract": {
+            "channel": 0,
+            "opaque": 50,
+            "clear": 130,
+            "rgb": [
+              59,
+              82,
+              19
+            ]
+          },
+          "background_sample_rect": [
+            24,
+            25,
+            25,
+            284
+          ],
+          "edge_feather": 3
+        }
+      ],
+      "protected_polygons": []
+    },
+    "gui/traits/street_selected_idle.png": {
+      "source_size": [
+        313,
+        313
+      ],
+      "source_sha256": "db84895ddd9fad77aab48aad690b418b5e0bb4eef9b1f623c0e408ff7d61f003",
+      "artifact": "ru_support/images/pilot_refresh/street_title.png",
+      "artifact_size": [
+        2167,
+        725
+      ],
+      "artifact_sha256": "9e19567f95f70c5ec7047b568c48fa7c7471d7678a6800a9e87953b56a049e7b",
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            101,
+            2167,
+            592
+          ],
+          "destination_rect": [
+            22,
+            22,
+            291,
+            74
+          ],
+          "edge_feather": 0,
+          "letter_mask": "ru_support/images/pilot_refresh/street_letter_mask.png",
+          "background_repair": {
+            "artifact": "ru_support/images/pilot_refresh/street_cleanplate.png",
+            "generated_rect": [
+              0,
+              117,
+              2168,
+              537
+            ],
+            "source_erase_mask": "ru_support/images/pilot_refresh/street_english_mask.png",
+            "source_mask_rect": [
+              22,
+              22,
+              291,
+              74
+            ],
+            "uv_homography": [
+              0.9907832531331581,
+              -0.0016152884182634544,
+              0.00542786328767984,
+              0.009329030351404616,
+              1.0095991469565258,
+              -0.010503311605521422,
+              -0.0019445075673117825,
+              -0.0015640192501102219
+            ],
+            "colour_fit": [
+              [
+                0.9265935081308098,
+                18.12911851131199
+              ],
+              [
+                0.8868140858486173,
+                24.83288533821443
+              ],
+              [
+                0.9883291129456038,
+                3.1963518216233195
+              ]
+            ]
+          }
+        }
+      ],
+      "protected_polygons": [
+        [
+          [
+            22,
+            74
+          ],
+          [
+            292,
+            74
+          ],
+          [
+            292,
+            292
+          ],
+          [
+            22,
+            292
+          ]
+        ]
+      ]
+    },
+    "gui/traits/traits_hardcore_idle.png": {
+      "source_size": [
+        434,
+        170
+      ],
+      "source_sha256": "063af48f3cb71885e6182e3248a4214f4fb8e6127c8b58e5f39d14d766726dbf",
+      "artifact": "ru_support/images/gui/traits/traits_hardcore_idle.png",
+      "artifact_size": [
+        2004,
+        785
+      ],
+      "artifact_sha256": "b5f0fa9bc4c1f59076a8762366e9c9cfd116dd696c73c5c8a5bd1fefb5de288a",
+      "regions": [
+        {
+          "generated_rect": [
+            304,
+            107,
+            1682,
+            328
+          ],
+          "destination_rect": [
+            66,
+            24,
+            370,
+            73
+          ],
+          "ink_extract": {
+            "channel": 0,
+            "opaque": 20,
+            "clear": 220,
+            "rgb": [
+              0,
+              0,
+              0
+            ]
+          },
+          "background_sample_rect": [
+            70,
+            24,
+            71,
+            73
+          ],
+          "replace_original_alpha": true
+        },
+        {
+          "generated_rect": [
+            322,
+            458,
+            1646,
+            692
+          ],
+          "destination_rect": [
+            70,
+            102,
+            362,
+            154
+          ],
+          "ink_extract": {
+            "channel": 0,
+            "opaque": 20,
+            "clear": 220,
+            "rgb": [
+              0,
+              0,
+              0
+            ]
+          },
+          "background_rgb": [
+            202,
+            187,
+            131
+          ]
+        }
+      ],
+      "protected_polygons": []
+    },
+    "gui/traits/traits_idle.png": {
+      "source_size": [
+        434,
+        170
+      ],
+      "source_sha256": "dbb20c3b295a310d6d252062e882784d43c3f0acce481604f465a93fcc3295e1",
+      "artifact": "ru_support/images/gui/traits/traits_idle.png",
+      "artifact_size": [
+        2004,
+        785
+      ],
+      "artifact_sha256": "0c73be9ae44520ab33a099a83da8ee98d1ce060be379aa9721de93e83bff2969",
+      "regions": [
+        {
+          "generated_rect": [
+            304,
+            108,
+            1685,
+            330
+          ],
+          "destination_rect": [
+            66,
+            24,
+            370,
+            73
+          ],
+          "ink_extract": {
+            "channel": 0,
+            "opaque": 20,
+            "clear": 220,
+            "rgb": [
+              0,
+              0,
+              0
+            ]
+          },
+          "background_sample_rect": [
+            74,
+            24,
+            75,
+            73
+          ],
+          "replace_original_alpha": true
+        },
+        {
+          "generated_rect": [
+            322,
+            462,
+            1648,
+            698
+          ],
+          "destination_rect": [
+            70,
+            102,
+            362,
+            154
+          ],
+          "ink_extract": {
+            "channel": 0,
+            "opaque": 20,
+            "clear": 220,
+            "rgb": [
+              0,
+              0,
+              0
+            ]
+          },
+          "background_rgb": [
+            202,
+            187,
+            131
+          ]
+        }
+      ],
+      "protected_polygons": []
+    },
+    "images/_episode 1/_bg/monday_woods_climax/bg hardcore warning.png": {
+      "source_size": [
+        1920,
+        1080
+      ],
+      "source_sha256": "89493bd2c5a8aa33d177300fe7d6d23d9bd8604b1ec82330d8308a5d2dd228e4",
+      "artifact": "ru_support/images/images/_episode 1/_bg/monday_woods_climax/bg hardcore warning.png",
+      "artifact_size": [
+        1672,
+        941
+      ],
+      "artifact_sha256": "0d7b776a8d4f019822f5f5be99a73052a50b64c807c8962ef250a4cbe86bcae5",
+      "regions": [
+        {
+          "generated_rect": [
+            261,
+            70,
+            1411,
+            235
+          ],
+          "destination_rect": [
+            300,
+            80,
+            1620,
+            270
+          ],
+          "colour_fit": [
+            [
+              1.02,
+              -5.1
+            ],
+            [
+              1.02,
+              -5.1
+            ],
+            [
+              1.02,
+              -5.1
+            ]
+          ]
+        },
+        {
+          "generated_rect": [
+            261,
+            331,
+            1411,
+            497
+          ],
+          "destination_rect": [
+            300,
+            380,
+            1620,
+            570
+          ],
+          "colour_fit": [
+            [
+              1.02,
+              -5.1
+            ],
+            [
+              1.02,
+              -5.1
+            ],
+            [
+              1.02,
+              -5.1
+            ]
+          ]
+        },
+        {
+          "generated_rect": [
+            183,
+            592,
+            1489,
+            688
+          ],
+          "destination_rect": [
+            210,
+            680,
+            1710,
+            790
+          ],
+          "colour_fit": [
+            [
+              1.02,
+              -5.1
+            ],
+            [
+              1.02,
+              -5.1
+            ],
+            [
+              1.02,
+              -5.1
+            ]
+          ]
+        },
+        {
+          "generated_rect": [
+            244,
+            767,
+            1446,
+            854
+          ],
+          "destination_rect": [
+            280,
+            880,
+            1660,
+            980
+          ],
+          "colour_fit": [
+            [
+              1.02,
+              -5.1
+            ],
+            [
+              1.02,
+              -5.1
+            ],
+            [
+              1.02,
+              -5.1
+            ]
+          ]
+        }
+      ],
+      "protected_polygons": []
+    }
+  },
+  "original_only": [
+    {
+      "source": "gui/gender/male_idle.png",
+      "source_size": [
+        175,
+        325
+      ],
+      "source_sha256": "b7d75dca356afacf615a1c5353e3dcf3f4d1c7350709df4f4e043e7be030308f"
+    },
+    {
+      "source": "gui/gender/male_selected_idle.png",
+      "source_size": [
+        175,
+        325
+      ],
+      "source_sha256": "2de141cc8762964ab64fa393006b6c23c4c5d8b1f93e7eb554a473f9c7ad582c"
+    },
+    {
+      "source": "gui/gender/enby_idle.png",
+      "source_size": [
+        175,
+        325
+      ],
+      "source_sha256": "dcfb61b0e8720eac5309bd89f0fad26eb5bd9ed987eb98a09d329608f7c6bde0"
+    },
+    {
+      "source": "gui/gender/enby_selected_idle.png",
+      "source_size": [
+        175,
+        325
+      ],
+      "source_sha256": "a52eec7caac877adad757a7ed9554bb2fedf9a25eda44f7dca82737e7c21ca51"
+    },
+    {
+      "source": "gui/gender/female_idle.png",
+      "source_size": [
+        175,
+        325
+      ],
+      "source_sha256": "f603af15eb313561c07e227852a624f8b29334b519cdf9f9c6a68a0dac192495"
+    },
+    {
+      "source": "gui/gender/female_selected_idle.png",
+      "source_size": [
+        175,
+        325
+      ],
+      "source_sha256": "e627f9fb574e86834f2629f44f0c7ee134a6f7501b94272a75d48705d3d454ea"
+    }
+  ]
+}

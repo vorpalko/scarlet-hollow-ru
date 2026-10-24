@@ -1,0 +1,2130 @@
+{
+  "schema_version": 1,
+  "source_archive_sha256": "1dd82e3806b3be15cd209ad5ba955ea03a996519b69f8966d379b2a86205531c",
+  "specs": {
+    "images/_episode 5/_bg/forbidden/objects/book nursery closed.png": {
+      "asset_id": "E5G-0258",
+      "source_sha256": "3dfc9c8a7e0c2d9320d0c1960a3f5c176e876302b10de3f5e22064e12ed21f86",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "artifact_size": [
+        588,
+        118
+      ],
+      "regions": [
+        {
+          "part": "01A",
+          "generated_rect": [
+            440,
+            73,
+            522,
+            95
+          ],
+          "destination_rect": [
+            688,
+            184,
+            770,
+            206
+          ]
+        },
+        {
+          "part": "01B",
+          "generated_rect": [
+            325,
+            0,
+            588,
+            60
+          ],
+          "destination_rect": [
+            790,
+            230,
+            1053,
+            290
+          ]
+        },
+        {
+          "part": "01C",
+          "generated_rect": [
+            262,
+            73,
+            438,
+            113
+          ],
+          "destination_rect": [
+            685,
+            481,
+            861,
+            521
+          ]
+        },
+        {
+          "part": "01D",
+          "generated_rect": [
+            0,
+            0,
+            323,
+            71
+          ],
+          "destination_rect": [
+            880,
+            438,
+            1203,
+            509
+          ]
+        },
+        {
+          "part": "01E2",
+          "generated_rect": [
+            0,
+            73,
+            260,
+            118
+          ],
+          "destination_rect": [
+            1006,
+            554,
+            1266,
+            599
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          688,
+          184,
+          770,
+          206
+        ],
+        [
+          790,
+          230,
+          1053,
+          290
+        ],
+        [
+          685,
+          481,
+          861,
+          521
+        ],
+        [
+          880,
+          438,
+          1203,
+          509
+        ],
+        [
+          1006,
+          554,
+          1266,
+          599
+        ]
+      ],
+      "artifact": "ru_support/images/episode5/e5g_0258.png",
+      "image_names": [
+        "book nursery closed"
+      ]
+    },
+    "images/_episode 5/_bg/forbidden/objects/drawings nursery boy.png": {
+      "asset_id": "E5G-0266",
+      "source_sha256": "61d4d6d479682cd2968a68a4be332df5817dc046fb97e19118e612c1a5555491",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "artifact_size": [
+        414,
+        164
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            358,
+            54
+          ],
+          "destination_rect": [
+            750,
+            289,
+            1108,
+            343
+          ]
+        },
+        {
+          "generated_rect": [
+            0,
+            56,
+            414,
+            139
+          ],
+          "destination_rect": [
+            717,
+            337,
+            1131,
+            420
+          ]
+        },
+        {
+          "generated_rect": [
+            0,
+            141,
+            30,
+            164
+          ],
+          "destination_rect": [
+            871,
+            165,
+            901,
+            188
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          750,
+          289,
+          1108,
+          343
+        ],
+        [
+          717,
+          337,
+          1131,
+          420
+        ],
+        [
+          871,
+          165,
+          901,
+          188
+        ]
+      ],
+      "artifact": "ru_support/images/episode5/e5g_0266.png",
+      "image_names": [
+        "drawings nursery boy"
+      ]
+    },
+    "images/_episode 5/_bg/forbidden/objects/drawings nursery real.png": {
+      "asset_id": "E5G-0268",
+      "source_sha256": "5aa36d55f352d38e1b1e2c665c846904af0f23422fc13387c9159cbf0434090d",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "artifact_size": [
+        392,
+        311
+      ],
+      "regions": [
+        {
+          "part": "02MN",
+          "generated_rect": [
+            0,
+            0,
+            314,
+            131
+          ],
+          "destination_rect": [
+            391,
+            342,
+            705,
+            473
+          ]
+        },
+        {
+          "part": "02O",
+          "generated_rect": [
+            0,
+            246,
+            266,
+            311
+          ],
+          "destination_rect": [
+            1074,
+            374,
+            1340,
+            439
+          ]
+        },
+        {
+          "part": "02P",
+          "generated_rect": [
+            0,
+            133,
+            392,
+            244
+          ],
+          "destination_rect": [
+            1017,
+            411,
+            1409,
+            522
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          391,
+          342,
+          705,
+          473
+        ],
+        [
+          1074,
+          374,
+          1340,
+          439
+        ],
+        [
+          1017,
+          411,
+          1409,
+          522
+        ]
+      ],
+      "artifact": "ru_support/images/episode5/e5g_0268.png",
+      "image_names": [
+        "drawings nursery real"
+      ]
+    },
+    "images/_episode 5/_bg/forbidden/objects/note edwardine closet.png": {
+      "asset_id": "E5G-0273",
+      "source_sha256": "bd0b9350cc9b8cfaef75c7976e43a9a28b5176a2dcad41cb3b6df13c367e0a3c",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "artifact_size": [
+        286,
+        276
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            286,
+            276
+          ],
+          "destination_rect": [
+            814,
+            243,
+            1100,
+            519
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          814,
+          243,
+          1100,
+          519
+        ]
+      ],
+      "artifact": "ru_support/images/episode5/e5g_0273_001.png",
+      "image_names": [
+        "note edwardine closet"
+      ]
+    },
+    "images/_episode 5/_bg/forbidden/objects/sketches enoch first.png": {
+      "asset_id": "E5G-0277",
+      "source_sha256": "7f1484d68865cce74f4fbd7715be0cac2a61cc5ad1afd946fc60064c38281345",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "artifact_size": [
+        714,
+        684
+      ],
+      "regions": [
+        {
+          "part": "04B0",
+          "generated_rect": [
+            404,
+            421,
+            712,
+            505
+          ],
+          "destination_rect": [
+            243,
+            555,
+            551,
+            639
+          ]
+        },
+        {
+          "part": "04D1",
+          "generated_rect": [
+            536,
+            632,
+            648,
+            662
+          ],
+          "destination_rect": [
+            835,
+            130,
+            947,
+            160
+          ]
+        },
+        {
+          "part": "04D2",
+          "generated_rect": [
+            0,
+            0,
+            206,
+            220
+          ],
+          "destination_rect": [
+            1026,
+            171,
+            1232,
+            391
+          ]
+        },
+        {
+          "part": "04D3",
+          "generated_rect": [
+            268,
+            632,
+            534,
+            673
+          ],
+          "destination_rect": [
+            778,
+            398,
+            1044,
+            439
+          ]
+        },
+        {
+          "part": "04P1",
+          "generated_rect": [
+            139,
+            632,
+            266,
+            682
+          ],
+          "destination_rect": [
+            279,
+            115,
+            406,
+            165
+          ]
+        },
+        {
+          "part": "04P2",
+          "generated_rect": [
+            225,
+            547,
+            394,
+            627
+          ],
+          "destination_rect": [
+            467,
+            138,
+            636,
+            218
+          ]
+        },
+        {
+          "part": "04P3",
+          "generated_rect": [
+            246,
+            421,
+            402,
+            532
+          ],
+          "destination_rect": [
+            491,
+            212,
+            647,
+            323
+          ]
+        },
+        {
+          "part": "04S0",
+          "generated_rect": [
+            208,
+            0,
+            604,
+            166
+          ],
+          "destination_rect": [
+            790,
+            494,
+            1186,
+            660
+          ]
+        },
+        {
+          "part": "04T0",
+          "generated_rect": [
+            0,
+            421,
+            244,
+            545
+          ],
+          "destination_rect": [
+            1366,
+            612,
+            1610,
+            736
+          ]
+        },
+        {
+          "part": "04V1",
+          "generated_rect": [
+            396,
+            547,
+            549,
+            622
+          ],
+          "destination_rect": [
+            1438,
+            157,
+            1591,
+            232
+          ]
+        },
+        {
+          "part": "04V2",
+          "generated_rect": [
+            539,
+            222,
+            702,
+            395
+          ],
+          "destination_rect": [
+            1617,
+            276,
+            1780,
+            449
+          ]
+        },
+        {
+          "part": "04V2X",
+          "generated_rect": [
+            0,
+            632,
+            137,
+            684
+          ],
+          "destination_rect": [
+            1630,
+            420,
+            1767,
+            472
+          ]
+        },
+        {
+          "part": "04V3",
+          "generated_rect": [
+            551,
+            547,
+            714,
+            609
+          ],
+          "destination_rect": [
+            1392,
+            431,
+            1555,
+            493
+          ]
+        },
+        {
+          "part": "04V4",
+          "generated_rect": [
+            0,
+            222,
+            537,
+            419
+          ],
+          "destination_rect": [
+            1193,
+            407,
+            1730,
+            604
+          ]
+        },
+        {
+          "part": "04V5",
+          "generated_rect": [
+            0,
+            547,
+            223,
+            630
+          ],
+          "destination_rect": [
+            1318,
+            501,
+            1541,
+            584
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          243,
+          555,
+          551,
+          639
+        ],
+        [
+          835,
+          130,
+          947,
+          160
+        ],
+        [
+          1026,
+          171,
+          1232,
+          391
+        ],
+        [
+          778,
+          398,
+          1044,
+          439
+        ],
+        [
+          279,
+          115,
+          406,
+          165
+        ],
+        [
+          467,
+          138,
+          636,
+          218
+        ],
+        [
+          491,
+          212,
+          647,
+          323
+        ],
+        [
+          790,
+          494,
+          1186,
+          660
+        ],
+        [
+          1366,
+          612,
+          1610,
+          736
+        ],
+        [
+          1438,
+          157,
+          1591,
+          232
+        ],
+        [
+          1617,
+          276,
+          1780,
+          449
+        ],
+        [
+          1630,
+          420,
+          1767,
+          472
+        ],
+        [
+          1392,
+          431,
+          1555,
+          493
+        ],
+        [
+          1193,
+          407,
+          1730,
+          604
+        ],
+        [
+          1318,
+          501,
+          1541,
+          584
+        ]
+      ],
+      "artifact": "ru_support/images/episode5/e5g_0277.png",
+      "image_names": [
+        "sketches enoch first"
+      ]
+    },
+    "images/_episode 5/_bg/forbidden/objects/sketches enoch second.png": {
+      "asset_id": "E5G-0278",
+      "source_sha256": "ffa9e142223d9652f3edaa431a37af1f5308657b77b22a443a4ab8248c86d639",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "artifact_size": [
+        369,
+        820
+      ],
+      "regions": [
+        {
+          "part": "04B1",
+          "generated_rect": [
+            249,
+            344,
+            341,
+            398
+          ],
+          "destination_rect": [
+            270,
+            231,
+            362,
+            285
+          ]
+        },
+        {
+          "part": "04B2",
+          "generated_rect": [
+            180,
+            0,
+            369,
+            155
+          ],
+          "destination_rect": [
+            448,
+            237,
+            637,
+            392
+          ]
+        },
+        {
+          "part": "04B3",
+          "generated_rect": [
+            0,
+            585,
+            309,
+            668
+          ],
+          "destination_rect": [
+            233,
+            517,
+            542,
+            600
+          ]
+        },
+        {
+          "part": "04R1",
+          "generated_rect": [
+            236,
+            749,
+            359,
+            799
+          ],
+          "destination_rect": [
+            268,
+            145,
+            391,
+            195
+          ]
+        },
+        {
+          "part": "04R2",
+          "generated_rect": [
+            0,
+            471,
+            335,
+            583
+          ],
+          "destination_rect": [
+            838,
+            186,
+            1173,
+            298
+          ]
+        },
+        {
+          "part": "04R3B",
+          "generated_rect": [
+            186,
+            208,
+            333,
+            299
+          ],
+          "destination_rect": [
+            1655,
+            311,
+            1802,
+            402
+          ]
+        },
+        {
+          "part": "04R3H",
+          "generated_rect": [
+            0,
+            670,
+            151,
+            747
+          ],
+          "destination_rect": [
+            1464,
+            190,
+            1615,
+            267
+          ]
+        },
+        {
+          "part": "04S1",
+          "generated_rect": [
+            153,
+            670,
+            262,
+            715
+          ],
+          "destination_rect": [
+            872,
+            315,
+            981,
+            360
+          ]
+        },
+        {
+          "part": "04S2",
+          "generated_rect": [
+            0,
+            0,
+            178,
+            206
+          ],
+          "destination_rect": [
+            1041,
+            353,
+            1219,
+            559
+          ]
+        },
+        {
+          "part": "04S3",
+          "generated_rect": [
+            0,
+            749,
+            234,
+            820
+          ],
+          "destination_rect": [
+            808,
+            591,
+            1042,
+            662
+          ]
+        },
+        {
+          "part": "04T1",
+          "generated_rect": [
+            264,
+            670,
+            340,
+            707
+          ],
+          "destination_rect": [
+            1501,
+            337,
+            1577,
+            374
+          ]
+        },
+        {
+          "part": "04T2",
+          "generated_rect": [
+            0,
+            208,
+            184,
+            342
+          ],
+          "destination_rect": [
+            1641,
+            416,
+            1825,
+            550
+          ]
+        },
+        {
+          "part": "04T3",
+          "generated_rect": [
+            0,
+            344,
+            247,
+            469
+          ],
+          "destination_rect": [
+            1393,
+            596,
+            1640,
+            721
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          270,
+          231,
+          362,
+          285
+        ],
+        [
+          448,
+          237,
+          637,
+          392
+        ],
+        [
+          233,
+          517,
+          542,
+          600
+        ],
+        [
+          268,
+          145,
+          391,
+          195
+        ],
+        [
+          838,
+          186,
+          1173,
+          298
+        ],
+        [
+          1655,
+          311,
+          1802,
+          402
+        ],
+        [
+          1464,
+          190,
+          1615,
+          267
+        ],
+        [
+          872,
+          315,
+          981,
+          360
+        ],
+        [
+          1041,
+          353,
+          1219,
+          559
+        ],
+        [
+          808,
+          591,
+          1042,
+          662
+        ],
+        [
+          1501,
+          337,
+          1577,
+          374
+        ],
+        [
+          1641,
+          416,
+          1825,
+          550
+        ],
+        [
+          1393,
+          596,
+          1640,
+          721
+        ]
+      ],
+      "artifact": "ru_support/images/episode5/e5g_0278.png",
+      "image_names": [
+        "sketches enoch second"
+      ]
+    },
+    "images/_episode 5/church/extras/note church.png": {
+      "asset_id": "E5G-1005",
+      "source_sha256": "5b301a069d875b033304b5344a5db1ba9dbedcf7c0743ecb14a895cc5cbf076e",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "artifact_size": [
+        216,
+        187
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            216,
+            187
+          ],
+          "destination_rect": [
+            872,
+            304,
+            1088,
+            491
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          872,
+          304,
+          1088,
+          491
+        ]
+      ],
+      "artifact": "ru_support/images/episode5/e5g_1005_001.png",
+      "image_names": [
+        "note church"
+      ]
+    },
+    "images/_episode 5/miners/ext/crowd f ext strong angry.png": {
+      "asset_id": "E5G-1218",
+      "source_sha256": "f1745813c9758cc1dde6a3b75c76522f0f5feed181d78ef073503d7effa1ef9c",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "artifact_size": [
+        260,
+        201
+      ],
+      "regions": [
+        {
+          "part": "06A",
+          "generated_rect": [
+            0,
+            115,
+            90,
+            201
+          ],
+          "destination_rect": [
+            220,
+            349,
+            310,
+            435
+          ]
+        },
+        {
+          "part": "06B",
+          "generated_rect": [
+            92,
+            115,
+            165,
+            177
+          ],
+          "destination_rect": [
+            523,
+            342,
+            596,
+            404
+          ]
+        },
+        {
+          "part": "06C",
+          "generated_rect": [
+            0,
+            0,
+            98,
+            113
+          ],
+          "destination_rect": [
+            1490,
+            208,
+            1588,
+            321
+          ]
+        },
+        {
+          "part": "06DL",
+          "generated_rect": [
+            214,
+            0,
+            260,
+            75
+          ],
+          "destination_rect": [
+            1,
+            253,
+            47,
+            328
+          ]
+        },
+        {
+          "part": "06DR",
+          "generated_rect": [
+            167,
+            115,
+            251,
+            170
+          ],
+          "destination_rect": [
+            1766,
+            307,
+            1850,
+            362
+          ]
+        },
+        {
+          "part": "06E",
+          "generated_rect": [
+            100,
+            0,
+            212,
+            109
+          ],
+          "destination_rect": [
+            790,
+            310,
+            902,
+            419
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          220,
+          349,
+          310,
+          435
+        ],
+        [
+          523,
+          342,
+          596,
+          404
+        ],
+        [
+          1490,
+          208,
+          1588,
+          321
+        ],
+        [
+          1,
+          253,
+          47,
+          328
+        ],
+        [
+          1766,
+          307,
+          1850,
+          362
+        ],
+        [
+          790,
+          310,
+          902,
+          419
+        ]
+      ],
+      "artifact": "ru_support/images/episode5/e5g_1218.png",
+      "image_names": [
+        "crowd f ext strong angry"
+      ]
+    },
+    "images/_episode 5/miners/ext/crowd f ext strong.png": {
+      "asset_id": "E5G-1219",
+      "source_sha256": "f8590ab125de791b0341e0d257b0454d8ab7050179a3042b3d3ab5ae2587f778",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "artifact_size": [
+        257,
+        197
+      ],
+      "regions": [
+        {
+          "part": "06A",
+          "generated_rect": [
+            81,
+            115,
+            165,
+            195
+          ],
+          "destination_rect": [
+            226,
+            358,
+            310,
+            438
+          ]
+        },
+        {
+          "part": "06B",
+          "generated_rect": [
+            0,
+            115,
+            79,
+            197
+          ],
+          "destination_rect": [
+            514,
+            343,
+            593,
+            425
+          ]
+        },
+        {
+          "part": "06C",
+          "generated_rect": [
+            0,
+            0,
+            98,
+            113
+          ],
+          "destination_rect": [
+            1490,
+            208,
+            1588,
+            321
+          ]
+        },
+        {
+          "part": "06DL",
+          "generated_rect": [
+            214,
+            0,
+            252,
+            72
+          ],
+          "destination_rect": [
+            1,
+            326,
+            39,
+            398
+          ]
+        },
+        {
+          "part": "06DR",
+          "generated_rect": [
+            167,
+            115,
+            257,
+            186
+          ],
+          "destination_rect": [
+            1699,
+            323,
+            1789,
+            394
+          ]
+        },
+        {
+          "part": "06E",
+          "generated_rect": [
+            100,
+            0,
+            212,
+            109
+          ],
+          "destination_rect": [
+            790,
+            310,
+            902,
+            419
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          226,
+          358,
+          310,
+          438
+        ],
+        [
+          514,
+          343,
+          593,
+          425
+        ],
+        [
+          1490,
+          208,
+          1588,
+          321
+        ],
+        [
+          1,
+          326,
+          39,
+          398
+        ],
+        [
+          1699,
+          323,
+          1789,
+          394
+        ],
+        [
+          790,
+          310,
+          902,
+          419
+        ]
+      ],
+      "artifact": "ru_support/images/episode5/e5g_1219.png",
+      "image_names": [
+        "crowd f ext strong"
+      ]
+    },
+    "images/_episode 5/miners/ext/harrison f ext doubt talk.png": {
+      "asset_id": "E5G-1225",
+      "source_sha256": "a26a146773eb04432fd78baac092a804ac34057ec886b16d96bda3833c93fc36",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "artifact_size": [
+        75,
+        82
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            75,
+            82
+          ],
+          "destination_rect": [
+            1337,
+            337,
+            1412,
+            419
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          1337,
+          337,
+          1412,
+          419
+        ]
+      ],
+      "artifact": "ru_support/images/episode5/e5g_1225.png",
+      "image_names": [
+        "harrison f ext doubt talk"
+      ]
+    },
+    "images/_episode 5/miners/ext/harrison f ext neutral talk.png": {
+      "asset_id": "E5G-1226",
+      "source_sha256": "753a87507a3ddeb4215267b13df126aa2cd65c36caab53a76e106a1fa07da490",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "artifact_size": [
+        75,
+        82
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            75,
+            82
+          ],
+          "destination_rect": [
+            1337,
+            337,
+            1412,
+            419
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          1337,
+          337,
+          1412,
+          419
+        ]
+      ],
+      "artifact": "ru_support/images/episode5/e5g_1226.png",
+      "image_names": [
+        "harrison f ext neutral talk"
+      ]
+    },
+    "images/_episode 5/miners/ext/harrison f ext neutral.png": {
+      "asset_id": "E5G-1227",
+      "source_sha256": "3fc3e72212bf6492dc8636825a832384e5c534d3d86e3b7ed14967bd976581ad",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "artifact_size": [
+        75,
+        82
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            75,
+            82
+          ],
+          "destination_rect": [
+            1337,
+            337,
+            1412,
+            419
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          1337,
+          337,
+          1412,
+          419
+        ]
+      ],
+      "artifact": "ru_support/images/episode5/e5g_1227.png",
+      "image_names": [
+        "harrison f ext neutral"
+      ]
+    },
+    "images/_episode 5/reese/mines/miners/harrison fre reese talk.png": {
+      "asset_id": "E5G-1451",
+      "source_sha256": "1c9c97914f5b0c74fd4b587fef9aea326a7d218ab582eaaba5d86a7d2dc8b2d6",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "artifact_size": [
+        66,
+        71
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            66,
+            71
+          ],
+          "destination_rect": [
+            1273,
+            316,
+            1339,
+            387
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          1273,
+          316,
+          1339,
+          387
+        ]
+      ],
+      "artifact": "ru_support/images/episode5/e5g_1451.png",
+      "image_names": [
+        "harrison fre reese talk"
+      ]
+    },
+    "images/_episode 5/reese/mines/miners/harrison fre reese.png": {
+      "asset_id": "E5G-1452",
+      "source_sha256": "ab4bb7d6d826cbba9d1c2347a9d10cf715a8f274dbbe8520cd0627a8d6d3ca36",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "artifact_size": [
+        66,
+        71
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            66,
+            71
+          ],
+          "destination_rect": [
+            1273,
+            316,
+            1339,
+            387
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          1273,
+          316,
+          1339,
+          387
+        ]
+      ],
+      "artifact": "ru_support/images/episode5/e5g_1452.png",
+      "image_names": [
+        "harrison fre reese"
+      ]
+    },
+    "images/_episode 5/miners/ext/sung f ext glance isaacs talk.png": {
+      "asset_id": "E5G-1241",
+      "source_sha256": "128b01b5fa054a3b5c39d2b0858a192b73cc556a8b4561aa743353009c1f6cdb",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "artifact_size": [
+        113,
+        113
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            113,
+            113
+          ],
+          "destination_rect": [
+            695,
+            297,
+            808,
+            410
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          695,
+          297,
+          808,
+          410
+        ]
+      ],
+      "artifact": "ru_support/images/episode5/e5g_1241.png",
+      "image_names": [
+        "sung f ext glance isaacs talk"
+      ]
+    },
+    "images/_episode 5/miners/ext/sung f ext glance isaacs.png": {
+      "asset_id": "E5G-1242",
+      "source_sha256": "a243143c2b0e45445010847435bcfa275e395843cece5d22fb4ab6526d6334d9",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "artifact_size": [
+        113,
+        113
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            113,
+            113
+          ],
+          "destination_rect": [
+            695,
+            297,
+            808,
+            410
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          695,
+          297,
+          808,
+          410
+        ]
+      ],
+      "artifact": "ru_support/images/episode5/e5g_1242.png",
+      "image_names": [
+        "sung f ext glance isaacs"
+      ]
+    },
+    "images/_episode 5/miners/ext/sung f ext glance player talk.png": {
+      "asset_id": "E5G-1243",
+      "source_sha256": "7a0ab3167c06398e34cf817b4d34982326c954da7a1e74fc505230092d85bbe6",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "artifact_size": [
+        113,
+        113
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            113,
+            113
+          ],
+          "destination_rect": [
+            695,
+            297,
+            808,
+            410
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          695,
+          297,
+          808,
+          410
+        ]
+      ],
+      "artifact": "ru_support/images/episode5/e5g_1242.png",
+      "image_names": [
+        "sung f ext glance player talk"
+      ]
+    },
+    "images/_episode 5/miners/ext/sung f ext glance player.png": {
+      "asset_id": "E5G-1244",
+      "source_sha256": "7048e844905f0e682ab22162636c427cb599d336ba2d1fdacfc5fc60ae19f4b2",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "artifact_size": [
+        113,
+        113
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            113,
+            113
+          ],
+          "destination_rect": [
+            695,
+            297,
+            808,
+            410
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          695,
+          297,
+          808,
+          410
+        ]
+      ],
+      "artifact": "ru_support/images/episode5/e5g_1242.png",
+      "image_names": [
+        "sung f ext glance player"
+      ]
+    },
+    "images/_episode 5/miners/ext/sung f ext neutral talk.png": {
+      "asset_id": "E5G-1245",
+      "source_sha256": "834af46096e3923a780191545e1422c75a00ead431fb216dc583462472a4cb4c",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "artifact_size": [
+        113,
+        113
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            113,
+            113
+          ],
+          "destination_rect": [
+            695,
+            297,
+            808,
+            410
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          695,
+          297,
+          808,
+          410
+        ]
+      ],
+      "artifact": "ru_support/images/episode5/e5g_1245.png",
+      "image_names": [
+        "sung f ext neutral talk"
+      ]
+    },
+    "images/_episode 5/miners/ext/sung f ext neutral.png": {
+      "asset_id": "E5G-1246",
+      "source_sha256": "32e3f9d413fa44749441303cce805d2c6d60320b9bda9f931fe5110452d8d63f",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "artifact_size": [
+        113,
+        113
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            113,
+            113
+          ],
+          "destination_rect": [
+            695,
+            297,
+            808,
+            410
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          695,
+          297,
+          808,
+          410
+        ]
+      ],
+      "artifact": "ru_support/images/episode5/e5g_1245.png",
+      "image_names": [
+        "sung f ext neutral"
+      ]
+    },
+    "images/_episode 5/_bg/forbidden/objects/cards edwardine desk.png": {
+      "asset_id": "E5G-0262",
+      "source_sha256": "653e132b556181bdccbe95aea0da292f753783edb28f3237dcfe74882a0140a5",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "artifact_size": [
+        280,
+        177
+      ],
+      "regions": [
+        {
+          "part": "09A",
+          "generated_rect": [
+            208,
+            117,
+            238,
+            139
+          ],
+          "destination_rect": [
+            968,
+            246,
+            998,
+            268
+          ]
+        },
+        {
+          "part": "09B",
+          "generated_rect": [
+            0,
+            117,
+            206,
+            177
+          ],
+          "destination_rect": [
+            879,
+            522,
+            1085,
+            582
+          ]
+        },
+        {
+          "part": "09C",
+          "generated_rect": [
+            109,
+            0,
+            280,
+            89
+          ],
+          "destination_rect": [
+            710,
+            551,
+            881,
+            640
+          ]
+        },
+        {
+          "part": "09D",
+          "generated_rect": [
+            0,
+            0,
+            107,
+            115
+          ],
+          "destination_rect": [
+            1024,
+            250,
+            1131,
+            365
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          968,
+          246,
+          998,
+          268
+        ],
+        [
+          879,
+          522,
+          1085,
+          582
+        ],
+        [
+          710,
+          551,
+          881,
+          640
+        ],
+        [
+          1024,
+          250,
+          1131,
+          365
+        ]
+      ],
+      "artifact": "ru_support/images/episode5/e5g_0262.png",
+      "image_names": [
+        "cards edwardine desk"
+      ]
+    },
+    "images/_episode 5/tabitha/office/close/postcards f table.png": {
+      "asset_id": "E5G-1826",
+      "source_sha256": "ea804e7822c14a6b276bdddec2e49c96107778aff7b4928fa6027a7dea7d900b",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "artifact_size": [
+        178,
+        33
+      ],
+      "regions": [
+        {
+          "part": "09E",
+          "generated_rect": [
+            0,
+            0,
+            178,
+            33
+          ],
+          "destination_rect": [
+            889,
+            939,
+            1067,
+            972
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          889,
+          939,
+          1067,
+          972
+        ]
+      ],
+      "artifact": "ru_support/images/episode5/e5g_1826.png",
+      "image_names": [
+        "postcards f table"
+      ]
+    },
+    "images/_episode 5/_bg/forbidden/objects/drawings nursery nice.png": {
+      "asset_id": "E5G-0267",
+      "source_sha256": "1a15eeb6ba84d200f0789993ac07a148bf41865f34ce0c10d51a96a9d58075a0",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "artifact_size": [
+        396,
+        504
+      ],
+      "regions": [
+        {
+          "part": "02DE",
+          "generated_rect": [
+            0,
+            0,
+            259,
+            162
+          ],
+          "destination_rect": [
+            319,
+            382,
+            578,
+            544
+          ]
+        },
+        {
+          "part": "02F",
+          "generated_rect": [
+            160,
+            262,
+            374,
+            334
+          ],
+          "destination_rect": [
+            631,
+            216,
+            845,
+            288
+          ]
+        },
+        {
+          "part": "02G",
+          "generated_rect": [
+            0,
+            262,
+            158,
+            353
+          ],
+          "destination_rect": [
+            650,
+            282,
+            808,
+            373
+          ]
+        },
+        {
+          "part": "02H",
+          "generated_rect": [
+            0,
+            439,
+            352,
+            504
+          ],
+          "destination_rect": [
+            902,
+            231,
+            1254,
+            296
+          ]
+        },
+        {
+          "part": "02I",
+          "generated_rect": [
+            0,
+            355,
+            328,
+            437
+          ],
+          "destination_rect": [
+            897,
+            278,
+            1225,
+            360
+          ]
+        },
+        {
+          "part": "02J",
+          "generated_rect": [
+            0,
+            164,
+            284,
+            260
+          ],
+          "destination_rect": [
+            1308,
+            409,
+            1592,
+            505
+          ]
+        },
+        {
+          "part": "02K",
+          "generated_rect": [
+            261,
+            0,
+            396,
+            98
+          ],
+          "destination_rect": [
+            1409,
+            486,
+            1544,
+            584
+          ]
+        },
+        {
+          "part": "02L1",
+          "generated_rect": [
+            376,
+            262,
+            396,
+            281
+          ],
+          "destination_rect": [
+            411,
+            122,
+            431,
+            141
+          ]
+        },
+        {
+          "part": "02L2",
+          "generated_rect": [
+            376,
+            439,
+            394,
+            453
+          ],
+          "destination_rect": [
+            618,
+            116,
+            636,
+            130
+          ]
+        },
+        {
+          "part": "02L3",
+          "generated_rect": [
+            330,
+            355,
+            345,
+            367
+          ],
+          "destination_rect": [
+            982,
+            116,
+            997,
+            128
+          ]
+        },
+        {
+          "part": "02L4",
+          "generated_rect": [
+            354,
+            439,
+            374,
+            456
+          ],
+          "destination_rect": [
+            1467,
+            304,
+            1487,
+            321
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          319,
+          382,
+          578,
+          544
+        ],
+        [
+          631,
+          216,
+          845,
+          288
+        ],
+        [
+          650,
+          282,
+          808,
+          373
+        ],
+        [
+          902,
+          231,
+          1254,
+          296
+        ],
+        [
+          897,
+          278,
+          1225,
+          360
+        ],
+        [
+          1308,
+          409,
+          1592,
+          505
+        ],
+        [
+          1409,
+          486,
+          1544,
+          584
+        ],
+        [
+          411,
+          122,
+          431,
+          141
+        ],
+        [
+          618,
+          116,
+          636,
+          130
+        ],
+        [
+          982,
+          116,
+          997,
+          128
+        ],
+        [
+          1467,
+          304,
+          1487,
+          321
+        ]
+      ],
+      "artifact": "ru_support/images/episode5/e5g_0267.png",
+      "image_names": [
+        "drawings nursery nice"
+      ]
+    }
+  }
+}

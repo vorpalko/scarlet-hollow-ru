@@ -1,0 +1,1394 @@
+{
+  "schema_version": 1,
+  "source_archive_sha256": "1dd82e3806b3be15cd209ad5ba955ea03a996519b69f8966d379b2a86205531c",
+  "specs": {
+    "images/_episode 3/_bg/bg general store fool zoom.png": {
+      "artifact": "ru_support/images/episode3/e3g_0213_001.png",
+      "artifact_size": [
+        116,
+        75
+      ],
+      "asset_id": "E3G-0213-001",
+      "image_names": [
+        "bg general store fool zoom"
+      ],
+      "source_sha256": "6fb83c7af634a05eb3671d19bd290317094a4951490e60ef2476df119dff29f8",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            116,
+            38
+          ],
+          "destination_rect": [
+            864,
+            277,
+            980,
+            315
+          ]
+        },
+        {
+          "generated_rect": [
+            0,
+            42,
+            106,
+            75
+          ],
+          "destination_rect": [
+            1077,
+            838,
+            1183,
+            871
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          864,
+          277,
+          980,
+          315
+        ],
+        [
+          1077,
+          838,
+          1183,
+          871
+        ]
+      ]
+    },
+    "images/_episode 3/_bg/bg library back.png": {
+      "artifact": "ru_support/images/episode3/e3g_0215_002.png",
+      "artifact_size": [
+        97,
+        35
+      ],
+      "asset_id": "E3G-0215-002",
+      "image_names": [
+        "bg library back"
+      ],
+      "source_sha256": "9d9e20e5665a296271cf1fa840b3ded62149496920679e4efb51125783537ab2",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            97,
+            35
+          ],
+          "destination_rect": [
+            329,
+            604,
+            426,
+            639
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          329,
+          604,
+          426,
+          639
+        ]
+      ]
+    },
+    "images/_episode 3/_bg/bg library lobby sunset.png": {
+      "artifact": "ru_support/images/episode3/e3g_0223_banner001.png",
+      "artifact_size": [
+        125,
+        83
+      ],
+      "asset_id": "E3G-0223-banner001",
+      "image_names": [
+        "bg library lobby sunset"
+      ],
+      "source_sha256": "b700d4dcdead50124ffbaa0680e23bd3d95513318dfc47f1553c44fa1fd11977",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            125,
+            83
+          ],
+          "destination_rect": [
+            863,
+            349,
+            988,
+            432
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          863,
+          349,
+          988,
+          432
+        ]
+      ]
+    },
+    "images/_episode 3/_bg/bg van kaneeka.png": {
+      "artifact": "ru_support/images/episode3/e3g_0243_calendar002.png",
+      "artifact_size": [
+        160,
+        40
+      ],
+      "asset_id": "E3G-0243-calendar002",
+      "image_names": [
+        "bg van kaneeka"
+      ],
+      "source_sha256": "0c99bda438ba23ebdcd24a0b448a64abe1fdd212866fa23a55226d12d9b0da10",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            160,
+            40
+          ],
+          "destination_rect": [
+            719,
+            30,
+            879,
+            70
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          719,
+          30,
+          879,
+          70
+        ]
+      ]
+    },
+    "images/_episode 3/assorted/phone/phone w alien.png": {
+      "artifact": "ru_support/images/episode3/e3g_0493_001.png",
+      "artifact_size": [
+        89,
+        29
+      ],
+      "asset_id": "E3G-0493-phone001",
+      "image_names": [
+        "phone w alien"
+      ],
+      "source_sha256": "dcb290347f21a551209c192ad6793ef7044f6ed88b72b1f381dad1385a7b4160",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            44,
+            14
+          ],
+          "destination_rect": [
+            792,
+            262,
+            836,
+            276
+          ]
+        },
+        {
+          "generated_rect": [
+            0,
+            14,
+            89,
+            29
+          ],
+          "destination_rect": [
+            821,
+            589,
+            910,
+            604
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          792,
+          262,
+          836,
+          276
+        ],
+        [
+          821,
+          589,
+          910,
+          604
+        ]
+      ]
+    },
+    "images/_episode 3/assorted/phone/phone w ben.png": {
+      "artifact": "ru_support/images/episode3/e3g_0494_001.png",
+      "artifact_size": [
+        48,
+        14
+      ],
+      "asset_id": "E3G-0494-phone001",
+      "image_names": [
+        "phone w ben"
+      ],
+      "source_sha256": "925399b3acbdc928dadd5b9364d7dca16a827ea32f41060a915a267b37e52109",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            48,
+            14
+          ],
+          "destination_rect": [
+            792,
+            262,
+            840,
+            276
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          792,
+          262,
+          840,
+          276
+        ]
+      ]
+    },
+    "images/_episode 3/assorted/phone/phone w harold.png": {
+      "artifact": "ru_support/images/episode3/e3g_0495_001.png",
+      "artifact_size": [
+        88,
+        16
+      ],
+      "asset_id": "E3G-0495-phone001",
+      "image_names": [
+        "phone w harold"
+      ],
+      "source_sha256": "256e81a19ddac7b8a1c68cab48d75acdf05b29d0688377cd16d797a095513c79",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            88,
+            16
+          ],
+          "destination_rect": [
+            792,
+            260,
+            880,
+            276
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          792,
+          260,
+          880,
+          276
+        ]
+      ]
+    },
+    "images/_episode 3/assorted/phone/phone w mascot.png": {
+      "artifact": "ru_support/images/episode3/e3g_0493_001.png",
+      "artifact_size": [
+        89,
+        29
+      ],
+      "asset_id": "E3G-0496-phone001",
+      "image_names": [
+        "phone w mascot"
+      ],
+      "source_sha256": "7e319074870901dee041ad3a74bd8da4cf852a9a1878e71d357ecbbc109dc4d3",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            44,
+            14
+          ],
+          "destination_rect": [
+            792,
+            262,
+            836,
+            276
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          792,
+          262,
+          836,
+          276
+        ]
+      ]
+    },
+    "images/_episode 3/assorted/phone/txt w hardened.png": {
+      "artifact": "ru_support/images/episode3/e3g_0497_001.png",
+      "artifact_size": [
+        222,
+        126
+      ],
+      "asset_id": "E3G-0497-phone001",
+      "image_names": [
+        "txt w hardened"
+      ],
+      "source_sha256": "11e44e51a7071dffae9c3485fb4d1e888b5d0c9c374da57e83c5ba56d364c842",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            222,
+            126
+          ],
+          "destination_rect": [
+            801,
+            274,
+            1023,
+            400
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          801,
+          274,
+          1023,
+          331
+        ],
+        [
+          801,
+          331,
+          1021,
+          332
+        ],
+        [
+          801,
+          332,
+          1003,
+          333
+        ],
+        [
+          801,
+          333,
+          985,
+          334
+        ],
+        [
+          801,
+          334,
+          967,
+          335
+        ],
+        [
+          801,
+          335,
+          948,
+          336
+        ],
+        [
+          801,
+          336,
+          931,
+          337
+        ],
+        [
+          801,
+          337,
+          913,
+          338
+        ],
+        [
+          801,
+          338,
+          896,
+          339
+        ],
+        [
+          801,
+          339,
+          877,
+          340
+        ],
+        [
+          1014,
+          339,
+          1023,
+          340
+        ],
+        [
+          801,
+          340,
+          858,
+          341
+        ],
+        [
+          997,
+          340,
+          1023,
+          341
+        ],
+        [
+          801,
+          341,
+          841,
+          342
+        ],
+        [
+          982,
+          341,
+          1023,
+          342
+        ],
+        [
+          801,
+          342,
+          824,
+          343
+        ],
+        [
+          965,
+          342,
+          1023,
+          343
+        ],
+        [
+          801,
+          343,
+          806,
+          344
+        ],
+        [
+          950,
+          343,
+          1023,
+          344
+        ],
+        [
+          935,
+          344,
+          1023,
+          345
+        ],
+        [
+          919,
+          345,
+          1023,
+          346
+        ],
+        [
+          902,
+          346,
+          1023,
+          347
+        ],
+        [
+          886,
+          347,
+          1023,
+          348
+        ],
+        [
+          870,
+          348,
+          1023,
+          349
+        ],
+        [
+          855,
+          349,
+          1023,
+          350
+        ],
+        [
+          839,
+          350,
+          1023,
+          351
+        ],
+        [
+          823,
+          351,
+          1023,
+          352
+        ],
+        [
+          801,
+          352,
+          1023,
+          386
+        ],
+        [
+          802,
+          386,
+          1023,
+          400
+        ]
+      ]
+    },
+    "images/_episode 3/assorted/phone/txt w sacrifice.png": {
+      "artifact": "ru_support/images/episode3/e3g_0498_001.png",
+      "artifact_size": [
+        223,
+        135
+      ],
+      "asset_id": "E3G-0498-phone001",
+      "image_names": [
+        "txt w sacrifice"
+      ],
+      "source_sha256": "e6537ee7a6424d069eb183bd6272114a06d5058a9f12c039f2ede98e1691fbd6",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            223,
+            135
+          ],
+          "destination_rect": [
+            801,
+            274,
+            1024,
+            409
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          801,
+          274,
+          1024,
+          331
+        ],
+        [
+          801,
+          331,
+          1020,
+          332
+        ],
+        [
+          801,
+          332,
+          1002,
+          333
+        ],
+        [
+          801,
+          333,
+          984,
+          334
+        ],
+        [
+          801,
+          334,
+          967,
+          335
+        ],
+        [
+          801,
+          335,
+          949,
+          336
+        ],
+        [
+          801,
+          336,
+          931,
+          337
+        ],
+        [
+          801,
+          337,
+          914,
+          338
+        ],
+        [
+          801,
+          338,
+          895,
+          339
+        ],
+        [
+          1020,
+          338,
+          1024,
+          339
+        ],
+        [
+          801,
+          339,
+          877,
+          340
+        ],
+        [
+          1014,
+          339,
+          1024,
+          340
+        ],
+        [
+          801,
+          340,
+          858,
+          341
+        ],
+        [
+          997,
+          340,
+          1024,
+          341
+        ],
+        [
+          801,
+          341,
+          841,
+          342
+        ],
+        [
+          982,
+          341,
+          1024,
+          342
+        ],
+        [
+          801,
+          342,
+          823,
+          343
+        ],
+        [
+          965,
+          342,
+          1024,
+          343
+        ],
+        [
+          801,
+          343,
+          811,
+          344
+        ],
+        [
+          950,
+          343,
+          1024,
+          344
+        ],
+        [
+          934,
+          344,
+          1024,
+          345
+        ],
+        [
+          918,
+          345,
+          1024,
+          346
+        ],
+        [
+          903,
+          346,
+          1024,
+          347
+        ],
+        [
+          887,
+          347,
+          1024,
+          348
+        ],
+        [
+          871,
+          348,
+          1024,
+          349
+        ],
+        [
+          855,
+          349,
+          1024,
+          350
+        ],
+        [
+          838,
+          350,
+          1024,
+          351
+        ],
+        [
+          823,
+          351,
+          1024,
+          352
+        ],
+        [
+          801,
+          352,
+          1024,
+          386
+        ],
+        [
+          802,
+          386,
+          1024,
+          406
+        ],
+        [
+          803,
+          406,
+          1024,
+          409
+        ]
+      ]
+    },
+    "images/_episode 3/assorted/phone/txt w safe.png": {
+      "artifact": "ru_support/images/episode3/e3g_0499_001.png",
+      "artifact_size": [
+        223,
+        126
+      ],
+      "asset_id": "E3G-0499-phone001",
+      "image_names": [
+        "txt w safe"
+      ],
+      "source_sha256": "802863b66d99cb2e67c81b50f954214f5b2936cd3fdab82fe62f488f5d6759b3",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            223,
+            126
+          ],
+          "destination_rect": [
+            801,
+            274,
+            1024,
+            400
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          801,
+          274,
+          1024,
+          331
+        ],
+        [
+          801,
+          331,
+          1020,
+          332
+        ],
+        [
+          801,
+          332,
+          1002,
+          333
+        ],
+        [
+          801,
+          333,
+          984,
+          334
+        ],
+        [
+          801,
+          334,
+          967,
+          335
+        ],
+        [
+          801,
+          335,
+          949,
+          336
+        ],
+        [
+          801,
+          336,
+          931,
+          337
+        ],
+        [
+          801,
+          337,
+          914,
+          338
+        ],
+        [
+          801,
+          338,
+          895,
+          339
+        ],
+        [
+          1020,
+          338,
+          1024,
+          339
+        ],
+        [
+          801,
+          339,
+          877,
+          340
+        ],
+        [
+          1014,
+          339,
+          1024,
+          340
+        ],
+        [
+          801,
+          340,
+          858,
+          341
+        ],
+        [
+          997,
+          340,
+          1024,
+          341
+        ],
+        [
+          801,
+          341,
+          841,
+          342
+        ],
+        [
+          982,
+          341,
+          1024,
+          342
+        ],
+        [
+          801,
+          342,
+          823,
+          343
+        ],
+        [
+          965,
+          342,
+          1024,
+          343
+        ],
+        [
+          801,
+          343,
+          811,
+          344
+        ],
+        [
+          950,
+          343,
+          1024,
+          344
+        ],
+        [
+          934,
+          344,
+          1024,
+          345
+        ],
+        [
+          918,
+          345,
+          1024,
+          346
+        ],
+        [
+          903,
+          346,
+          1024,
+          347
+        ],
+        [
+          887,
+          347,
+          1024,
+          348
+        ],
+        [
+          871,
+          348,
+          1024,
+          349
+        ],
+        [
+          855,
+          349,
+          1024,
+          350
+        ],
+        [
+          838,
+          350,
+          1024,
+          351
+        ],
+        [
+          823,
+          351,
+          1024,
+          352
+        ],
+        [
+          801,
+          352,
+          1024,
+          386
+        ],
+        [
+          802,
+          386,
+          1024,
+          400
+        ]
+      ]
+    },
+    "images/_episode 3/assorted/phone/txt w sorry.png": {
+      "artifact": "ru_support/images/episode3/e3g_0500_001.png",
+      "artifact_size": [
+        45,
+        31
+      ],
+      "asset_id": "E3G-0500-phone001",
+      "image_names": [
+        "txt w sorry"
+      ],
+      "source_sha256": "18062d2d50cdb159ade75b462aafe98b3af861cffa602ebabcb1363a058ce4be",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            45,
+            31
+          ],
+          "destination_rect": [
+            801,
+            274,
+            846,
+            305
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          801,
+          274,
+          846,
+          305
+        ]
+      ]
+    },
+    "images/_episode 3/assorted/phone/txt w tabby.png": {
+      "artifact": "ru_support/images/episode3/e3g_0501_001.png",
+      "artifact_size": [
+        226,
+        135
+      ],
+      "asset_id": "E3G-0501-phone001",
+      "image_names": [
+        "txt w tabby"
+      ],
+      "source_sha256": "64e6ca1a99be4ed1876b1db53576d82588f98e5defc378150a98c145455bc8ed",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            226,
+            135
+          ],
+          "destination_rect": [
+            801,
+            274,
+            1027,
+            409
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          801,
+          274,
+          1026,
+          286
+        ],
+        [
+          801,
+          286,
+          1027,
+          331
+        ],
+        [
+          801,
+          331,
+          1020,
+          332
+        ],
+        [
+          801,
+          332,
+          1002,
+          333
+        ],
+        [
+          801,
+          333,
+          984,
+          334
+        ],
+        [
+          801,
+          334,
+          967,
+          335
+        ],
+        [
+          801,
+          335,
+          949,
+          336
+        ],
+        [
+          801,
+          336,
+          931,
+          337
+        ],
+        [
+          801,
+          337,
+          914,
+          338
+        ],
+        [
+          801,
+          338,
+          895,
+          339
+        ],
+        [
+          1020,
+          338,
+          1027,
+          339
+        ],
+        [
+          801,
+          339,
+          877,
+          340
+        ],
+        [
+          1014,
+          339,
+          1027,
+          340
+        ],
+        [
+          801,
+          340,
+          858,
+          341
+        ],
+        [
+          997,
+          340,
+          1027,
+          341
+        ],
+        [
+          801,
+          341,
+          841,
+          342
+        ],
+        [
+          982,
+          341,
+          1027,
+          342
+        ],
+        [
+          801,
+          342,
+          823,
+          343
+        ],
+        [
+          965,
+          342,
+          1027,
+          343
+        ],
+        [
+          801,
+          343,
+          811,
+          344
+        ],
+        [
+          950,
+          343,
+          1027,
+          344
+        ],
+        [
+          934,
+          344,
+          1027,
+          345
+        ],
+        [
+          918,
+          345,
+          1027,
+          346
+        ],
+        [
+          903,
+          346,
+          1027,
+          347
+        ],
+        [
+          887,
+          347,
+          1027,
+          348
+        ],
+        [
+          871,
+          348,
+          1027,
+          349
+        ],
+        [
+          855,
+          349,
+          1027,
+          350
+        ],
+        [
+          838,
+          350,
+          1027,
+          351
+        ],
+        [
+          823,
+          351,
+          1027,
+          352
+        ],
+        [
+          801,
+          352,
+          1027,
+          386
+        ],
+        [
+          802,
+          386,
+          1027,
+          406
+        ],
+        [
+          803,
+          406,
+          1027,
+          409
+        ]
+      ]
+    },
+    "images/_episode 3/assorted/phone/txt w tomorrow.png": {
+      "artifact": "ru_support/images/episode3/e3g_0502_001.png",
+      "artifact_size": [
+        115,
+        30
+      ],
+      "asset_id": "E3G-0502-phone001",
+      "image_names": [
+        "txt w tomorrow"
+      ],
+      "source_sha256": "2cf6c8c9cd0a40570f0d752196ed1733649688c82b1507e40574f70f18bab635",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            115,
+            30
+          ],
+          "destination_rect": [
+            801,
+            274,
+            916,
+            304
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          801,
+          274,
+          916,
+          304
+        ]
+      ]
+    },
+    "images/_episode 3/diner/winnie/winnie far talk1.png": {
+      "artifact": "ru_support/images/episode2/e2g_1200_book002.png",
+      "artifact_size": [
+        43,
+        30
+      ],
+      "asset_id": "E3G-0698-reuse001",
+      "source_sha256": "c1f93614ed44e67f02f0db8d74d73f315287ec78925cbbefc3cc68e417beef92",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "image_names": [
+        "winnie far talk1"
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            43,
+            30
+          ],
+          "destination_rect": [
+            480,
+            550,
+            523,
+            580
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          480,
+          550,
+          523,
+          580
+        ]
+      ]
+    },
+    "images/_episode 3/diner/winnie/winnie far talk2.png": {
+      "artifact": "ru_support/images/episode2/e2g_1200_book002.png",
+      "artifact_size": [
+        43,
+        30
+      ],
+      "asset_id": "E3G-0699-reuse001",
+      "source_sha256": "8e4351ce04cedf0086b5637a46d6504732edc123eb0e2dec0c47843324a36a60",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "image_names": [
+        "winnie far talk2"
+      ],
+      "regions": [
+        {
+          "generated_rect": [
+            0,
+            0,
+            43,
+            30
+          ],
+          "destination_rect": [
+            480,
+            550,
+            523,
+            580
+          ]
+        }
+      ],
+      "source_clear_rects": [
+        [
+          480,
+          550,
+          523,
+          580
+        ]
+      ]
+    }
+  }
+}
