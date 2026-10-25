@@ -189,6 +189,19 @@ screen ru_pilot_language_selector():
 translate russian style say_dialogue:
     line_spacing 2
 
+# Episode 5's dedicated cinematic captions share this otherwise unused style.
+# Keep the native type size and 220px window; use its available width and
+# reserve space above/below the full caption, including the native CTC arrow.
+translate russian style window_flashback:
+    xsize 1920
+    background Solid("#000000")
+
+translate russian style voice_style:
+    xpos 0.5
+    xanchor 0.5
+    xsize 1760
+    ypos 12
+
 translate russian style input:
     font "gui/fonts/PT Mono Regular.ttf"
 

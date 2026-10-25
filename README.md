@@ -2,11 +2,11 @@
 
 Перевод актуален для версии **25889443**.
 
-Версия перевода: **1.0.5**.
+Версия перевода: **1.0.6**.
 
 100% перевод текста, картинок, видео.
 
-[Скачать перевод 1.0.5](https://github.com/vorpalko/scarlet-hollow-ru/releases/download/v1.0.5/ScarletHollow_RU_1.0.5.zip)
+[Скачать перевод 1.0.6](https://github.com/vorpalko/scarlet-hollow-ru/releases/download/v1.0.6/ScarletHollow_RU_1.0.6.zip)
 
 ## Установка
 
